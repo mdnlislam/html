@@ -1,76 +1,62 @@
-.heading1{
-    color: lightblue;
-    font-size: 2rem ;
-    font-style: italic;
-    
-    
+
+.button1 {
+
+  background-color: green;
+  padding: 15px 32px;
+  border: none;
+  margin: 4px 2px;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  display:block;
+  cursor: pointer;
+  text-decoration: none;
+  width: 50%;
 }
+   
 
- .heading2{
+.button2 {
 
-    color: lightgreen;
-    font-family: initial;
-
- }
-
-  .strong{
-    color: blue;
-    font-size: 25px;
-    
-  }  
-  .button1 {
-    background-color: #04AA6D; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-   .button3  {
-
-    background-color: blue;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display:inline-block ;
-    margin: 4px 2px;
-    cursor:pointer ;
-   }
-
-.button5 {
-
-  background-color: yellowgreen;
-   border:none ;
-color: white;
-padding:15px 32px ;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-margin: 4px 2px;
-cursor: pointer;
+  background-color: red;
+  padding:15px 34px;
+  border: none;
+  margin: 4px 2px;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  display:block;
+  cursor: pointer;
+  text-decoration: none;
+  width: 50%;
 }
 
 
-.btn-group button {
-  background-color: lightgreen; /* Green background */
-  border: 1px solid red; /* Green border */
-  color: white; /* White text */
-  padding: 10px 24px; /* Some padding */
-  cursor: pointer; /* Pointer/hand icon */
-  width: 30%; /* Set a width if needed */
-  display:block; /* Make the buttons appear below each other */
+.button3 {
+
+  background-color:yellow;
+  padding: 15px 32px;
+  border: none;
+  margin: 4px 2px;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  display:block;
+  cursor: pointer;
+  text-decoration: none;
+  width: 50%;
 }
 
-.btn-group button:not(:last-child) {
-  border-bottom: none; /* Prevent double borders */
-}
+.button4 {
 
-/* Add a background color on hover */
-.btn-group button:hover {
-  background-color: rgb(210, 12, 42);
+  background-color:black;
+  padding: 15px 32px;
+  border: none;
+  margin: 4px 2px;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  display:block;
+  cursor: pointer;
+  text-decoration: none;
+  width: 50%;
 }

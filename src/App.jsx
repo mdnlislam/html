@@ -14,24 +14,9 @@ function App() {
 
 <p>Change the font size of a button with the font-size property:</p>
 
-<button class="button button1">10px</button>
-<button class="button button2">12px</button>
-<button class="button button3">16px</button>
-<button class="button button4">20px</button>
-<button class="button button5">24px</button>
 
 
-           <h1> button size</h1>
-
-           <p> Change the font size of a button with the font-size property</p>
-           <div>
-           <button className="button button1">10px</button>
-           <button className="button button2">10px</button>
-           <button className="button button3">10px</button>
-           <button className="button button4">10px</button>
-           <button className="button button5">10px</button>
-
-           </div>
+           
            
            
      <h1 className='heading1'>Md.Nurul islam Nahid</h1>
@@ -46,12 +31,7 @@ function App() {
 
 <h2>Vertical Button Group</h2>
 
- <p className='btn-group'>
- <button className="button">Button</button>
-  <button className="button">Button</button>
-  <button className="button">Button</button>
-  <button className="button">Button</button>
- </p>
+ 
   
 
 
@@ -81,25 +61,15 @@ function App() {
            <sub> bangladesh is a small county</sub> <br />
            <sup> bangladesh is a small county</sup>
            
-
-           <table>
-
-            <tr>
-              <th> Person 1</th>
-              <th> Person 2</th>
-              <th> Person 3</th>
-            </tr>
-            <tr>
-              <td> Emil</td>
-              <td>Tobias</td>
-              <td>Linus</td>
-            </tr>
-            <tr>
-              <td> 30</td>
-              <td>40</td>
-              <td>50</td>
-            </tr>
-           </table>
+           <h1> button Colors</h1>
+           <p> change the background color of a button with the backgrount-color property</p>
+            <div className='btn-group'>
+            <button className="button button1">green</button>
+          <button className="button button2">red</button>
+          <button className="button button3">yeallo</button>
+          <button className="button button4">black</button>
+            </div>
+          
      </p>
     </>
   )
