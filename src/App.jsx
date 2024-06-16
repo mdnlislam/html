@@ -28,48 +28,15 @@ function App() {
      <p>Lorem ipsum dolor sit amet consectetur  adipisicing elit. <b> Nemo voluptas aperiam beatae!</b> Iure obcaecati qui nulla! Natus inventore libero corporis incidunt deleniti esse ut. Molestiae voluptatibus tempora ipsum magnam ipsa.
      
    
+     <h1> HTML DIV Example</h1>
+          <div className='div div1'>
+            <h2> london</h2>
+            <p className='paragraph paragraph1'>london is the capital city of england.</p>
+            <p className='paragraph paragraph2'>london has over 13 million inhabitants.</p>
+          </div>
+          <p>the yellow background is added to demonstrate the footprint of the DIV element</p>
 
-<h2>Vertical Button Group</h2>
-
- 
-  
-
-
-<body>
-
-
-</body>
- 
-     <ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul>
-<ol>
-<li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ol>
-
-           <strong className='strong'> bangladesh is a small county</strong> <br />
-           <i>bangladesh is a small county </i> <br />
-           <em> bangladesh is a small county </em> <br />
-           <b>Bangladesh is a small city</b> <br />
-           <small> bangladesh is a small county</small>  <br />
-           <del> Bangladesh is a small county</del> <br />
-           <ins> bangladesh is a small county</ins> <br />
-           <sub> bangladesh is a small county</sub> <br />
-           <sup> bangladesh is a small county</sup>
-           
-           <h1> button Colors</h1>
-           <p> change the background color of a button with the backgrount-color property</p>
-            <div className='btn-group'>
-            <button className="button button1">green</button>
-          <button className="button button2">red</button>
-          <button className="button button3">yeallo</button>
-          <button className="button button4">black</button>
-            </div>
-          
+         
      </p>
     </>
   )
