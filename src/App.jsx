@@ -35,11 +35,27 @@ function App() {
             <p className='paragraph paragraph2'>london has over 13 million inhabitants.</p>
           </div>
           <p>the yellow background is added to demonstrate the footprint of the DIV element</p>
+          <h1>card</h1>
+         <div className='card'>
+         <img src="https://res.cloudinary.com/dnhpk5q85/image/upload/v1716914477/social%20icons/lvvx1nqo7wwabm9t9wog.png" alt="avater"
+          />
+          <div className='container'>
+            <h4><b>john Done</b></h4>
+            <p>Architect & Engineer</p>
+
+          </div>
+                   
+         </div>
+        
+         
+        
+
+
 
          
-         <h1>Card</h1>
-         <img src="https://res.cloudinary.com/dnhpk5q85/image/upload/v1716914477/social%20icons/lvvx1nqo7wwabm9t9wog.png" alt="" />
      </p>
+
+
     </>
   )
 } 
