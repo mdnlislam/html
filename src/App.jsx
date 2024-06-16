@@ -37,6 +37,8 @@ function App() {
           <p>the yellow background is added to demonstrate the footprint of the DIV element</p>
 
          
+         <h1>Card</h1>
+         <img src="https://res.cloudinary.com/dnhpk5q85/image/upload/v1716914477/social%20icons/lvvx1nqo7wwabm9t9wog.png" alt="" />
      </p>
     </>
   )
