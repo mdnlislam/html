@@ -48,7 +48,7 @@ function App() {
          </div>
         
          
-        
+        <h1 className='heading heading7'>Text-shadow effect</h1>
 
 
 
