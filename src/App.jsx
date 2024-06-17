@@ -57,7 +57,44 @@ function App() {
           <h4 className='heading heading4'>bangladesh is a small county</h4>
           <h5 className='heading heading5'>bangla is a capital city</h5>
 
-         
+         <h2 className='heading heading2'>Add a border to a table :</h2>
+
+         <table>
+          <tr>
+            <th className='header header1'>firstname</th>
+            <th className='header header1'>lastname</th>
+          </tr>
+          <tr className='table row'>
+            <td>peter</td>
+            <td>griffin</td>
+          </tr>
+          <tr>
+            <td>lois</td>
+            <td>griffin</td>
+          </tr>
+         </table>
+       
+            
+             <table>
+              <h1>Custom Checkboxes</h1>
+              <label className='container'>One 
+                <input type="checkbox" checked="checked" />
+                <span className='checkmark'></span>
+              </label>
+              <label className='container'>TWO 
+                <input type="checkbox" checked="checked" />
+                <span className='checkmark'></span>
+              </label>
+              <label className='container'>Three 
+                <input type="checkbox" checked="checked" />
+                <span className='checkmark'></span>
+              </label>
+              <label className='container'>Four 
+                <input type="checkbox" checked="checked" />
+                <span className='checkmark'></span>
+              </label>
+             </table>
+
      </p>
 
 
