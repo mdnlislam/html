@@ -51,9 +51,12 @@ function App() {
         <h1 className='heading heading7'>Text-shadow effect</h1>
 
 
-          <h1>Using Letter-spacing</h1>
+          <h1 className='heading heading1'>Using Letter-spacing</h1>
           <h2 className='heading heading2'>This is heading 1</h2>
           <h3 className='heading heading3'>This is heading 2</h3>
+          <h4 className='heading heading4'>bangladesh is a small county</h4>
+          <h5 className='heading heading5'>bangla is a capital city</h5>
+
          
      </p>
 

@@ -28,9 +28,18 @@
   text-shadow: 2px 2px green;
  }
 
+ .heading1 {
+  letter-spacing: 5px; 
+ }
  .heading2 {
-   letter-spacing: 10px;
+  line-height: 5px;
  }
  .heading3 {
-  letter-spacing: -2px;
+   text-indent: 5px;
+ }
+ .heading4 {
+  white-space: 5px;
+ }
+ .heading5 {
+ word-spacing: 10px;
  }
