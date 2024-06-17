@@ -51,7 +51,9 @@ function App() {
         <h1 className='heading heading7'>Text-shadow effect</h1>
 
 
-
+          <h1>Using Letter-spacing</h1>
+          <h2 className='heading heading2'>This is heading 1</h2>
+          <h3 className='heading heading3'>This is heading 2</h3>
          
      </p>
 
