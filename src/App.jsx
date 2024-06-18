@@ -74,26 +74,36 @@ function App() {
           </tr>
          </table>
        
-            
-             <table>
-              <h1>Custom Checkboxes</h1>
-              <label className='container'>One 
-                <input type="checkbox" checked="checked" />
-                <span className='checkmark'></span>
-              </label>
-              <label className='container'>TWO 
-                <input type="checkbox" checked="checked" />
-                <span className='checkmark'></span>
-              </label>
-              <label className='container'>Three 
-                <input type="checkbox" checked="checked" />
-                <span className='checkmark'></span>
-              </label>
-              <label className='container'>Four 
-                <input type="checkbox" checked="checked" />
-                <span className='checkmark'></span>
-              </label>
-             </table>
+      {/* html */}
+      <h1>show Checkboxes</h1>
+      <form action="/action page.php">
+        <input type="checkbox"
+        id='vehicle1' name='vehicle1'
+        value="bike" />
+        <label for="vehicle1"> I have a bike</label> <br />
+
+        <input type="checkbox"
+        id='vehicle2' name='vehicle2'
+        value="bike" />
+        <label for="vehicle2"> I have a Car</label> <br />
+
+        <input type="checkbox"
+        id='vehicle3' name='vehicle3'
+        value="bike" />
+        <label for="vehicle3"> I have a boat</label> <br /> <br />
+        <input type="Submit" 
+        value="submit" />
+
+
+
+
+
+
+
+
+      </form>
+
+
 
      </p>
 

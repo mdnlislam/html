@@ -10,43 +10,36 @@
     transition:0 .3s;
     width: 20%;
   }
- .card:hover {
-  box-shadow: 0 8px 16px 0
-  rgba(0,0,0,0.2);
- }
+/* the container */
+ .container1 {
+  padding-left:35px ;
+  margin-bottom: 12px;
+  display: block;
+  position: relative;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 
- .container {
-  padding: 2px 16px;
  }
+ /* hide the browser's default checkbox */
 
+    .container1 input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0;
+    }
+    /* create a custom checkbox */
+    .checkmark {
+      position: absolute;
+      top: 0;
+      height:25 px;
+      width: 25px;
+      background-color: #eee;
 
- .heading7{
-  background-color: blueviolet;
-  font-size: 16px 32px;
-  width: 20%;
-  text-align: center;
-  text-shadow: 2px 2px green;
- }
-
- .heading1 {
-  letter-spacing: 5px; 
- }
- .heading2 {
-  line-height: 5px;
- }
- .heading3 {
-   text-indent: 5px;
- }
- .heading4 {
-  white-space: 5px;
- }
- .heading5 {
- word-spacing: 10px;
- }
-
- 
-  .heading2 {
-    color: aqua;
-  }
-  
- 
+    }
+    /* on mouse-over,add a grey background clor */
+     
