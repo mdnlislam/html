@@ -96,12 +96,28 @@ function App() {
 
 
 
-
-
-
-
-
       </form>
+
+       {/* html */}
+       <h1>Show Checkboxes</h1>
+        <form action="/action page.php">
+        <input type="checkbox" id='vehicle1' name='vehicle1' value="bike" />
+        <label for="vehicle1">I have a bike</label> <br />
+
+        <input type="checkbox" id='vehicle2' name='vehicle2' value="Car" />
+        <label for="vehicle2">I have a Car</label> <br />
+        
+        <input type="checkbox" id='vehicle3' name='vehicle3' value="boat" />
+        <label for="vehicle3">I have a boat</label> <br /> <br />
+
+        <input type="submit" value="Submit" />
+        
+        
+        
+        
+        
+        </form>
+
 
 
 
