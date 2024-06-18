@@ -112,13 +112,15 @@ function App() {
 
         <input type="submit" value="Submit" />
         
-        
-        
-        
-        
         </form>
 
+        <form action="/action page.">
+        <label htmlFor="username">Username:</label>
+        <input type="text" id='username' name='username' /> <br />
 
+        <input type="submit" value="Submit" />
+
+            </form>
 
 
      </p>
