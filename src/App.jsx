@@ -5,9 +5,9 @@ function App() {
 
   return (
     <>
-    
+   <ProductCard/> 
    <BasicHtml/>
-   <ProductCard/>
+   
     </>
   )
 } 
