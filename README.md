@@ -35,3 +35,19 @@ https://res.cloudinary.com/dnhpk5q85/image/upload/v1716914477/social%20icons/lvv
 position 
 
 before .after
+
+<!-- icons -->
+<!-- whatapp -->
+https://res.cloudinary.com/dnhpk5q85/image/upload/v1717503771/social%20icons/fyllcitxotvo9ejupfce.png
+
+<!-- facebook -->
+https://res.cloudinary.com/dnhpk5q85/image/upload/v1717503569/social%20icons/wd4rq5klahslvhmvuldj.png
+
+<!-- location -->
+https://res.cloudinary.com/dnhpk5q85/image/upload/v1717503915/social%20icons/qvlaqsw56ug6mmdftin0.png
+
+<!-- webside -->
+https://res.cloudinary.com/dnhpk5q85/image/upload/v1717503717/social%20icons/a1br2w2rvigka8caokd9.png
+
+<!-- instugram -->
+https://res.cloudinary.com/dnhpk5q85/image/upload/v1717503629/social%20icons/pe2obv89kgdyiyqs8rv2.png
