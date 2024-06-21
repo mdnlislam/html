@@ -18,7 +18,7 @@ function ProductCard(){
 
     {/* Now User Profile Card */}
 
-    <h2>User Profile Card</h2>
+    <h2 className="heading heading2">User Profile Card</h2>
 
     <div className="div2">
        <img src="https://res.cloudinary.com/dnhpk5q85/image/upload/v1716914477/social%20icons/lvvx1nqo7wwabm9t9wog.png
@@ -27,9 +27,9 @@ function ProductCard(){
   <p className="title">CEO & Founder,Example</p>
   <p>Harvard University</p>
 
-  <div>
+  <div className="div div3">
     <a href="#">
-        <img src="https://res.cloudinary.com/dnhpk5q85/image/upload/v1717503717/social%20icons/a1br2w2rvigka8caokd9.png
+        <img className="img img1" src="https://res.cloudinary.com/dnhpk5q85/image/upload/v1717503717/social%20icons/a1br2w2rvigka8caokd9.png
 " alt="" />
     </a>
     <a href="#">
@@ -45,7 +45,7 @@ function ProductCard(){
         <img src="https://res.cloudinary.com/dnhpk5q85/image/upload/v1717503629/social%20icons/pe2obv89kgdyiyqs8rv2.png
 " alt="" />
     </a>
-     <p><button>Contact</button></p>
+     <p className="paragraph paragraph4"><button>Contact</button></p>
   </div>
 
     </div>
