@@ -1,3 +1,4 @@
+import reactLogo from "../assets/react.svg";
 function ProductCard(){
     return <>
     
@@ -28,7 +29,12 @@ function ProductCard(){
   <p>Harvard University</p>
 
   <div className="div div3">
-    <a href="#">
+
+    <a href=""><i class="fa-brands fa-facebook"></i></a>
+    <img src="img/Rakib.jpg" alt="" />
+    <img src={reactLogo} alt="" />
+    <img src="vite.svg" alt="" />
+    {/* <a href="#">
         <img className="img img1" src="https://res.cloudinary.com/dnhpk5q85/image/upload/v1717503717/social%20icons/a1br2w2rvigka8caokd9.png
 " alt="" />
     </a>
@@ -45,7 +51,7 @@ function ProductCard(){
         <img src="https://res.cloudinary.com/dnhpk5q85/image/upload/v1717503629/social%20icons/pe2obv89kgdyiyqs8rv2.png
 " alt="" />
     </a>
-     <p className="paragraph paragraph4"><button>Contact</button></p>
+     <p className="paragraph paragraph4"><button>Contact</button></p> */}
   </div>
 
     </div>
