@@ -30,12 +30,12 @@ function ProductCard(){
 
   <div className="div div3">
 
-    <a href="www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
     <a href="#"><i class="fa-brands fa-twitter"></i></a> 
     <a href="#"><i class="fa-brands fa-linkedin"></i></a> 
     <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
 
-    </div>
+     </div>
     {/* <a href="#">
         <img className="img img1" src="https://res.cloudinary.com/dnhpk5q85/image/upload/v1717503717/social%20icons/a1br2w2rvigka8caokd9.png
 " alt="" />

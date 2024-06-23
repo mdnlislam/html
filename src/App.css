@@ -47,8 +47,24 @@
     .paragraph4 button:hover {
         opacity: 0.7;
     }
-  .div3{
-    font-size:20px;
-    padding-left: ;
-    
-  }
+  
+ .fa-facebook-f{
+  font-size:20px;
+  color: black;
+  padding: 6px;
+ }
+ .fa-twitter{
+  font-size:20px;
+  color: black;
+  padding: 6px;
+ }
+ .fa-linkedin{
+  font-size:20px;
+  color: black;
+  padding: 6px;
+ }
+ .fa-whatsapp{
+  font-size:20px;
+  color: black;
+  padding: 6px;
+ }
