@@ -30,10 +30,12 @@ function ProductCard(){
 
   <div className="div div3">
 
-    <a href=""><i class="fa-brands fa-facebook"></i></a>
-    <img src="img/Rakib.jpg" alt="" />
-    <img src={reactLogo} alt="" />
-    <img src="vite.svg" alt="" />
+    <a href="www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+    <a href="#"><i class="fa-brands fa-twitter"></i></a> 
+    <a href="#"><i class="fa-brands fa-linkedin"></i></a> 
+    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+
+    </div>
     {/* <a href="#">
         <img className="img img1" src="https://res.cloudinary.com/dnhpk5q85/image/upload/v1717503717/social%20icons/a1br2w2rvigka8caokd9.png
 " alt="" />
@@ -52,7 +54,8 @@ function ProductCard(){
 " alt="" />
     </a>
      <p className="paragraph paragraph4"><button>Contact</button></p> */}
-  </div>
+     <p className="paragraph paragraph4"><button>Contact</button></p>
+ 
 
     </div>
     
