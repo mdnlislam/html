@@ -1,107 +1,18 @@
 
-.div1{
-    box-shadow: 0 4px 8px 0 rgba(red, green, blue, alpha);
-    
-    max-width: 300px;
-    margin: auto;
-    text-align:center;
+.anchor:link{
+   color: aqua;
+   text-decoration: none;
 }
-    .heading{
-        text-align:center ;
-    }
-    .price1{
-        color: gray;
-        font-size:22px;
-    }
-   .paragraph3 button{
-    border: none;
-    outline: 0;
-    padding:12 px;
-    color: white;
-    background-color: #000;
-   }
-   .paragraph3 button:hover {
-    opacity: 0.7;
-   }
+.anchor:visited{
+   color: red;
+   text-decoration: none;
 
-   .div2{
-    box-shadow:0 4px 8px 0 rgba(22,10,10
-    ) ;
-    max-width: 300px;
-    margin: auto;
-    text-align: center;
-   }
-   .paragraph4 button{
-    border: none;
-
-    outline: 0;
-    padding: 12px;
-    display: inline-block;
-    text-align: center;
-    color: white;
-    background-color: #000;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
-   }
-    .paragraph4 button:hover {
-        opacity: 0.7;
-    }
-  
- .fa-facebook-f{
-  font-size:20px;
-  color: black;
-  padding: 6px;
- }
- .fa-twitter{
-  font-size:20px;
-  color: black;
-  padding: 6px;
- }
- .fa-linkedin{
-  font-size:20px;
-  color: black;
-  padding: 6px;
- }
- .fa-whatsapp{
-  font-size:20px;
-  color: black;
-  padding: 6px;
- }
-
- .flip-card{
-    background-color: transparent;
-    width:300px ;
-    height:300px ;
-    perspective: 1000px;
-
- }
- .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transform: transform 0.6s;
-    transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-
- }
- .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
- }
- .flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
- }
- .flip-card-front {
-    background-color: #bbb;
-    color: black;
- }
- .flip-card-bck {
-    background-color: #2980;
-    color: white;
-    transform: rotateY(180deg);
- }
+}
+.anchor:hover{
+   color: blue;
+   text-decoration:underline;
+}
+.anchor:active{
+   color: yellow;
+   text-decoration:underline;
+}
