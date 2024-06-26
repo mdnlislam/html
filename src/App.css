@@ -1,18 +1,11 @@
 
-.anchor:link{
-   color: aqua;
-   text-decoration: none;
-}
-.anchor:visited{
-   color: red;
-   text-decoration: none;
+  .img{
+   width:250px;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 
-}
-.anchor:hover{
-   color: blue;
-   text-decoration:underline;
-}
-.anchor:active{
-   color: yellow;
-   text-decoration:underline;
-}
+  }
+  .flip-card-back{
+   background-color: #2980b9;
+   color: white;
+   transform: rotateY('180deg');
+  }

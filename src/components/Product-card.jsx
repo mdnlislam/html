@@ -4,14 +4,14 @@ function ProductCard(){
     
         {/* new project */}
    
-     <div>
-<h2>
-     CSS Links
-</h2>
-  
-   <a className="anchor anchor" href="http://www.google.com">GOOGLE</a>
-                 
-     </div>
+       <div>
+          <img className="img" src="public/img/Rakib.jpg" alt="" />
+       </div>
+       <div className="flip-card-back">
+          <h2>Rony Mia</h2>
+          <p>Architect & Engineer</p>
+          <p>We love that guy</p>
+       </div>
     
      </>
 
