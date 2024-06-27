@@ -3,16 +3,31 @@ function ProductCard(){
     return <>
     
         {/* new project */}
-   
-       <div>
-          <img className="img" src="public/img/Rakib.jpg" alt="" />
-       </div>
-       <div className="flip-card-back">
-          <h2>Rony Mia</h2>
-          <p>Architect & Engineer</p>
-          <p>We love that guy</p>
-       </div>
-    
+
+            <div>
+
+
+                       <h1>
+                        DESIGNEER MD.NURUL ISLSM (RAKIB)
+                       </h1>
+
+                       <div className="back-font-card">
+                        <img className="img" src="public/img/Rakib.jpg" alt="" />
+                       </div>
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+
+
      </>
 
 }
