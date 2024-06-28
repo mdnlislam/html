@@ -1,16 +1,9 @@
 .img{
-height: 200px;
-width: 200px;
-
-}
-.img:hover{
-  rotate:180deg;
-  ba
-}
-.back-font-card{
-  background-color: red;
   width: 200px;
-  height:200px ;
-  rotate:180deg
+  height: 200px;
+  display: inline-flex;
 }
- 
+ .img:hover{
+  color: aqua;
+  display:block;
+ }
