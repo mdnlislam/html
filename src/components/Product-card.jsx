@@ -4,16 +4,27 @@ function ProductCard(){
     
         {/* new project */}
 
-            <div>
+            <div className="container">
 
+                 
+              <div className="Box">
+                <img src="https://res.cloudinary.com/dnhpk5q85/image/upload/v1716914477/social%20icons/lvvx1nqo7wwabm9t9wog.png" alt="" />
 
-                       <h1>
-                        DESIGNEER MD.NURUL ISLSM (RAKIB)
-                       </h1>
+              </div>
+              <div className="Box">
+                <img src="public/img/Rakib.jpg" alt="" />
 
-                       <div className="back-font-card">
-                        <img className="img" src="public/img/Rakib.jpg" alt="" />
-                       </div>
+              </div>
+
+              <div className="Box">
+                <img src="https://res.cloudinary.com/dnhpk5q85/image/upload/v1716914477/social%20icons/lvvx1nqo7wwabm9t9wog.png" alt="" />
+
+              </div>
+
+              <div className="Box">
+                <img src="public/img/Rakib.jpg" alt="" />
+
+              </div>
 
 
 
