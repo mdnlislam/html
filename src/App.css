@@ -7,6 +7,7 @@
   justify-content: center;
   height: 100vh;
   align-items: center;
+  background: whitesmoke;
 }
 
 
@@ -17,12 +18,17 @@
   padding: 2px;
 }
 .intro h2{
-  font-size: 20px;
+  font-size: 40px;
   text-align: center;
+  margin: 10px;
   
 }
-.intr p{
-  
+.intro p{
+  font-size: 20px;
+  margin: 20px;
+  font-weight: bold;
+  visibility: hidden;
+  opacity: 0;
 }
 
 .card img{
@@ -34,5 +40,31 @@
   height: 500px;
   margin: 50px;
   box-shadow: 5px 5px 20px black;
-  overflow: hidden;
+  overflow:hidden ;
+}
+.intro{
+  height: 70px;
+  width: 350px;
+  padding: 6px;
+  box-sizing: border-box;
+  position: absolute;
+  background: rgba(27 27 27 .5);
+  color: white;
+  bottom: 240px;
+  transition: .5s;
+}
+.card:hover{
+  cursor: pointer;
+}
+.card:hover .intro{
+  height: 220px;
+  bottom: 240px;
+  background: black;
+}
+.card:hover p{
+  opacity: 1;
+  visibility: visible;
+}
+.card:hover img{
+  transform: scale(1.1) rotate(-3deg);
 }
