@@ -5,28 +5,18 @@ function ProductCard(){
         {/* new project */}
 
             <div className="body">
+  
 
-            <h2>FLIP CARD</h2>
-            <div className="flip-card">
-                <div className="flip-card-inner">
-                    <div className="flip-card-front">
-                        <img src="public/img/Rakib.jpg" alt="" />
+                 <h2>OPACITY WITH BOX</h2>
 
-                    </div>
-                    <div className="flip-card-front">
-                        <h2>Rony Mia</h2>
-                        <p>Architect & Engineer</p>
-                        <p>We love that guy</p>
+                 <div className="container">
+                    <img src="public/img/Rakib.jpg" alt="" />
+                          <div className="middle">
+                            <p className="text">RONY</p>
 
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-
+                          </div>
+                 </div>
+              
 
 
 
