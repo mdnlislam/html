@@ -6,40 +6,24 @@ function ProductCard(){
 
             <div className="body">
 
-               <div className="container">
-                <div className="card">
-                    <img src="https://res.cloudinary.com/dnhpk5q85/image/upload/v1716914477/social%20icons/lvvx1nqo7wwabm9t9wog.png
-" alt="" />
-                        <div className="intro">
-                        <h2>LINK THIS</h2>
-                        <p>bangladesh is a small county. Bangladesh is a Beautiful</p>
-                        </div>
-                        
+            <h2>FLIP CARD</h2>
+            <div className="flip-card">
+                <div className="flip-card-inner">
+                    <div className="flip-card-front">
+                        <img src="public/img/Rakib.jpg" alt="" />
+
+                    </div>
+                    <div className="flip-card-front">
+                        <h2>Rony Mia</h2>
+                        <p>Architect & Engineer</p>
+                        <p>We love that guy</p>
+
+
+                    </div>
+
                 </div>
-                <div className="card">
-                    <img src="https://res.cloudinary.com/dnhpk5q85/image/upload/v1716914477/social%20icons/lvvx1nqo7wwabm9t9wog.png
-" alt="" />
-                        <div className="intro">
-                        <h2>LINK THIS</h2>
-                        <p>bangladesh is a small county. Bangladesh is a Beautiful</p>
-                        </div>
-                        
-                </div>
-                <div className="card">
-                    <img src="https://res.cloudinary.com/dnhpk5q85/image/upload/v1716914477/social%20icons/lvvx1nqo7wwabm9t9wog.png
-" alt="" />
-                        <div className="intro">
-                        <h2>LINK THIS</h2>
-                        <p>bangladesh is a small county. Bangladesh is a Beautiful</p>
-                        </div>
-                        
-                </div>
-                
-                
-                
-                
-                </div>  
-            
+
+            </div>
 
 
 
