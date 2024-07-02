@@ -6,18 +6,13 @@ function ProductCard(){
 
             <div className="body">
   
-
-                 <h2>OPACITY WITH BOX</h2>
-
-                 <div className="container">
-                    <img src="public/img/Rakib.jpg" alt="" />
-                          <div className="middle">
-                            <p className="text">RONY</p>
-
-                          </div>
-                 </div>
-              
-
+          
+               <div className="main">
+                <p>Would you loke to join our quest</p>
+               </div>
+               <div>
+                <button className="text">Confirm</button>
+               </div>
 
 
 
