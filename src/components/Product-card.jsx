@@ -7,12 +7,14 @@ function ProductCard(){
             <div className="body">
   
           
-               <div className="main">
-                <p>Would you loke to join our quest</p>
-               </div>
-               <div>
-                <button className="text">Confirm</button>
-               </div>
+             <h1>NEW DESIGN</h1>
+             <div className="intro">
+                <img src="public/img/Rakib2.jpg" alt="" />
+             </div>
+             <p>Bangladesh is a small county</p>
+             <div className="font">
+                <button>Submit</button>
+             </div>
 
 
 
