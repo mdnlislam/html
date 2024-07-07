@@ -6,19 +6,14 @@ function ProductCard(){
 
             <div className="body">
   
-              <div className="wrapper">
-               <div className="imge">
-                  <img src="public/img/Car.jpg" alt="" />
-                  <div className="content">
-                     <h2>Image hover Effect</h2>
-                     <p>Lorem ipsum dolor sit Anet</p>
+                      <h2>Position:absolute</h2>
 
-                  </div>
-
-               </div>
-
-              </div>
-
+                      <div className="font">
+                             This div element has position:relative  
+                             <div className="back">
+                                   this is absolute issu
+                             </div>
+                             </div>
 
             </div>
 
