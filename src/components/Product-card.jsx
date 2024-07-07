@@ -6,16 +6,22 @@ function ProductCard(){
 
             <div className="body">
   
-          
-             <h1 className="heading1">NEW DESIGN</h1>
-             <div className="intro">
-                <img src="public/img/Rakib2.jpg" alt="" />
-             </div>
-             <div className="font">
-             <p>Bangladesh is a small county</p>
-                <button>Submit</button>
-             </div>
+               <div className="import">
+                  <img src="public/img/Car.jpg" alt="" />
+               </div>
+               <div className="icon">
+                  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#"><i class="fa-solid fa-music"></i></a>
 
+               </div>
+               <div className="test">
+                  <h2>Car</h2>
+                  <p>Retail</p>
+                  <p>$420.00</p>
+
+               </div>
+           
 
 
 

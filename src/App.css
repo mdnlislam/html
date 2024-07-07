@@ -1,38 +1,27 @@
-.body{
-  margin: 0;
-  padding: 0;
-}
-.intro img{
+.import img{
   width: 250px;
-  height: 250px;
-  box-shadow: ;
+  height: 280px;
+  box-shadow: 0 4px 0 8px rgba;
+  text-align: center;
 }
-  .intro{
-    background-color: red;
-    width: 250px;
-    height: 260px;
-    display: block;
-    transition: absoulute;
-  }
-  .font p{
-    font-size: 20px;
-  }
-  .font button{
-    font-size: 20px;
-    text-align: center;
-  }
-  .heading1{
+.test h2, p{
+  font-size: 26px;
+  text-align: ;
+}
+.body{
+  text-align: center;
+}
+.fa-brands fa-facebook{
     font-size: 25px;
-    text-align: ;
-  }
-  .font button:hover{
-    background-color: blue;
-    color: white;
-  }
-  .intro img:hover .font p{
-          transform: translateY(0px);
-  }
-  .intro{
-    transform: translateY(25px);
-    transition: transform 0.6;
-  }
+}
+.icon, fa-brands fa-twitter{
+ font-size: 25px;
+ color: black;
+ padding: 5px;
+ 
+}
+.icon {
+ font-size: 50px;
+ padding: 5px;
+ color: black;
+}
