@@ -6,14 +6,27 @@ function ProductCard(){
 
             <div className="body">
   
-                      <h2>Position:absolute</h2>
+               <p>Image <b>POSITION</b> TExt</p>
 
-                      <div className="font">
-                             This div element has position:relative  
-                             <div className="back">
-                                   this is absolute issu
-                             </div>
-                             </div>
+               <div className="img">
+                <img src="public/img/Car.jpg" alt="" />
+
+                <div className="topleft">
+                      TOP-LEFT  </div>
+                      <div className="topright">
+                         TOP-RIGHT  </div>
+                         <div className="centered">
+                            CENTERED  </div>
+                            <div className="buttonleft">
+                              BUTTON-LEFT  </div>
+                              <div className="buttonright">
+                     BUTTON-RIGHT            
+                              </div>
+                           
+                         
+                      
+               
+               </div>
 
             </div>
 
