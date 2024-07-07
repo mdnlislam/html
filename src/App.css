@@ -1,27 +1,23 @@
-.import img{
-  width: 250px;
-  height: 280px;
-  box-shadow: 0 4px 0 8px rgba;
-  text-align: center;
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
-.test h2, p{
-  font-size: 26px;
-  text-align: ;
+.wrapper{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.body{
-  text-align: center;
+.image{
+  width: 500px;
+  position: relative;
+
 }
-.fa-brands fa-facebook{
-    font-size: 25px;
-}
-.icon, fa-brands fa-twitter{
- font-size: 25px;
- color: black;
- padding: 5px;
- 
-}
-.icon {
- font-size: 50px;
- padding: 5px;
- color: black;
+.image,img{
+  width: 400px;
+  height: 400px;
+  margin: auto;
 }

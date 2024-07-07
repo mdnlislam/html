@@ -6,23 +6,18 @@ function ProductCard(){
 
             <div className="body">
   
-               <div className="import">
+              <div className="wrapper">
+               <div className="imge">
                   <img src="public/img/Car.jpg" alt="" />
-               </div>
-               <div className="icon">
-                  <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                  <a href="#"><i class="fa-solid fa-music"></i></a>
+                  <div className="content">
+                     <h2>Image hover Effect</h2>
+                     <p>Lorem ipsum dolor sit Anet</p>
+
+                  </div>
 
                </div>
-               <div className="test">
-                  <h2>Car</h2>
-                  <p>Retail</p>
-                  <p>$420.00</p>
 
-               </div>
-           
-
+              </div>
 
 
             </div>
