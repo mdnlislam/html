@@ -1,39 +1,39 @@
 import reactLogo from "../assets/react.svg";
-function ProductCard(){
-    return <>
-    
-        {/* new project */}
+function ProductCard() {
+   return <>
 
-            <div className="body">
-  
-               <p>Image <b>POSITION</b> TExt</p>
+      {/* new project */}
 
-               <div className="img">
-                <img src="public/img/Car.jpg" alt="" />
+      <div className="body">
 
-                <div className="topleft">
-                      TOP-LEFT  </div>
-                      <div className="topright">
-                         TOP-RIGHT  </div>
-                         <div className="centered">
-                            CENTERED  </div>
-                            <div className="buttonleft">
-                              BUTTON-LEFT  </div>
-                              <div className="buttonright">
-                     BUTTON-RIGHT            
-                              </div>
-                           
-                         
-                      
-               
-               </div>
+         <p>Image <b>POSITION</b> TExt</p>
 
+         <div className="content">
+            <img src="public/img/Car.jpg" alt="" />
+
+            <div className="topleft">
+               TOP-LEFT  </div>
+            <div className="topright">
+               TOP-RIGHT  </div>
+            <div className="centered">
+               CENTERED  </div>
+            <div className="buttonleft">
+               BUTTON-LEFT  </div>
+            <div className="buttonright">
+               BUTTON-RIGHT
             </div>
 
 
 
 
-     </>
+         </div>
+
+      </div>
+
+
+
+
+   </>
 
 }
 export default ProductCard
