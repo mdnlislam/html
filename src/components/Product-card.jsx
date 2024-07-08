@@ -4,29 +4,26 @@ function ProductCard() {
 
       {/* new project */}
 
-      <div className="body">
+      <div className="main-card">
 
-         <p>Image <b>POSITION</b> TExt</p>
-
-         <div className="content">
-            <img src="public/img/Car.jpg" alt="" />
-
-            <div className="topleft">
-               TOP-LEFT  </div>
-            <div className="topright">
-               TOP-RIGHT  </div>
-            <div className="centered">
-               CENTERED  </div>
-            <div className="buttonleft">
-               BUTTON-LEFT  </div>
-            <div className="buttonright">
-               BUTTON-RIGHT
-            </div>
-
-
-
-
-         </div>
+         
+              <h2>Overflow:Scroll</h2>    
+              <p> Setting the overflow value Setting the overflow value
+              Setting the overflow value
+              Setting the overflow value
+              Setting the overflow value
+              Setting the overflow value
+              Setting the overflow value
+              Setting the overflow value </p> 
+              <div className="text"> 
+               You can use the overflow property
+               You can use the overflow property
+               You can use the overflow property
+               You can use the overflow property
+               You can use the overflow property
+               You can use the overflow property
+               You can use the overflow property
+               </div>     
 
       </div>
 
