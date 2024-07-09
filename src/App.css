@@ -44,7 +44,7 @@
 
   
 } */ 
-.A{
+/* .A{
   width: 35px;
   height: 5px;
   background-color: black;
@@ -53,5 +53,25 @@
 .A:hover{
   background-color: aquamarine;
   
-}
+} */
 
+.container{
+display: inline-block;
+}
+ .A1,.A2,.A3{
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+  transition: 0.4s;
+
+ }
+ .A1{
+  transform: translate(0,11px) rotate(-45deg);
+ }
+ .A2{
+  opacity: 0;
+ }
+ .A3{
+  transform: translate(0,-11px) rotate(45deg);
+ }
