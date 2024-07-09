@@ -31,7 +31,7 @@ function ProductCard() {
                    <br />
                    <br />
                    <br />
-                   
+
                    <div className="back">
                      Bangladesh is a beautyfull county
                      Bangladesh is a beautyfull county
@@ -41,6 +41,23 @@ function ProductCard() {
                      Bangladesh is a beautyfull county
                      Bangladesh is a beautyfull county
                      Bangladesh is a beautyfull county
+                   </div>
+
+
+                   <h2>Flexible Boxes</h2>
+
+                   <div className="display-flex">
+
+                     <div>1</div>
+                     <div>2</div>
+                     <div>3</div>
+
+                   </div>
+
+                   <div className="display-inline-flex">
+                          <div className="A">1</div>
+                          <div className="A">2</div>
+                          <div className="A">3</div>
                    </div>
              
 

@@ -22,3 +22,25 @@
   border: 3px solid red;
   overflow:clip;
 }
+
+
+.display-flex{
+
+}
+
+.A{
+  width:100px;
+  background-color: cadetblue;
+  margin: 10px;
+  line-height: 75px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.display-inline-flex{
+  display: flex;
+  background-color: aqua;
+  flex-wrap: nowrap;
+
+  
+}
