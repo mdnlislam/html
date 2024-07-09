@@ -6,7 +6,7 @@ function ProductCard() {
 
       <div className="main-card">
 
-                  <h2>Overflow:Hidden</h2>
+                  {/* <h2>Overflow:Hidden</h2>
                    
                    <div className="text">
                      Bangladesh is a beautyfull county
@@ -59,6 +59,13 @@ function ProductCard() {
                           <div className="A">2</div>
                           <div className="A">3</div>
                    </div>
+ */}
+
+                   <p> A menu icon</p>
+
+                   <div className="A"></div>
+                   <div className="A"></div>
+                   <div className="A"></div>
              
 
       </div>
