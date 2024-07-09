@@ -1,4 +1,4 @@
-
+/* 
 
 /* .text{
   width: 150px;
@@ -55,7 +55,7 @@
   
 } */
 
-.container{
+/* .container{
 display: inline-block;
 }
  .A1,.A2,.A3{
@@ -74,4 +74,4 @@ display: inline-block;
  }
  .A3{
   transform: translate(0,-11px) rotate(45deg);
- }
+ /* } */ 
