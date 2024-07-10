@@ -7,16 +7,13 @@ function ProductCard() {
       <div className="main-card">
 
            
-           <h2>Dropdown Menu</h2>
-           <div className="dropdown">
-            <button className="dropbtn">Dropdown</button>
-
-           </div>
-           <div className="Dropdown-content">
-            <a className="A" href="#">Open</a>
-            <a className="A" href="#">Close</a>
-            <a className="A" href="#">About</a>
-            <a className="A" href="#">Ok</a>
+           <h2>Vertical Menu</h2>
+           <div className="vertical-manu">
+            <a className="active" href="#">HOME</a>
+            <a href="#">link 1</a>
+            <a href="#"> link 2</a>
+            <a href="#"> link 3</a>
+            <a href="#">link 4</a>
 
            </div>
 
