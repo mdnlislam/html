@@ -1,47 +1,19 @@
-.navbar{
+
+
+.scrollmenu{
   background-color: black;
-  overflow: hidden;
-}
-
-.navbar a{
-  font-size: 16px;
-  float: left;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-.subnav{
-  float: left;
-  overflow: hidden;
-}
-.subnav .subnavbtn{
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-.navbar a:hover, .subnav:hover
-.subnavbtn{
-  background-color: lightblue;
-}
-.subnav-content{
-  display: none;
-  position: absolute;
-  left: 0;
-  background-color: aqua;
-  width: 100%;
+  white-space: nowrap;
+  overflow: auto;
 
 }
-.subnav-content{
-  float: left;
-  color: white;
-  text-decoration: none;
-}
-.subnav:hover .subnav-content{
-  display: block;
-}
+   .scrollmenu a{
+    display: inline-block;
+    padding: 14px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+   }
+   .scrollmenu a:hover{
+    background-color: #777;
+          
+   }
