@@ -1,18 +1,38 @@
-.vertical-manu{
+
+
+
+.DropDown{
   width: 200px;
+  position: relative;
+  background-color: aliceblue;
+  display: inline-block;
 }
 
-.vertical-manu a{
-  background-color: #eee;
-  color: black;
+.Dropbtn{
+  font-size: 25px;
+  background-color: beige;
+  text-decoration: none;
+  border: none;
   display: block;
-  padding: 12px;
+}
+
+.Dropdown-contant {
+  position: absolute;
+  text-decoration: none;
+  overflow: hidden;
+  display: none;
+
+}
+.Dropdown-contant a{
+  color: block;
+  padding: 12px 16px;
+  display: block;
   text-decoration: none;
 }
-.vertical-manu a:hover{
-  background-color: red;
-  color: white;
+.DropDown:hover .Dropdown-contant{
+  display: block;
 }
-.vertical-manu a.active{
-  background-color: green;
+.Dropdown-contant a:hover{
+  background-color: aqua;
+  color: aliceblue;
 }
