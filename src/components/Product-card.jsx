@@ -6,28 +6,31 @@ function ProductCard() {
 
      <div className="card-menu">
 
-           <div className="scrollmenu">
-            <a href="#">Home</a>
-            <a href="#">News</a>
-            <a href="#">Contact</a>
-            <a href="#">About</a>
-            <a href="#">Support</a>
-            <a href="#">Blog</a>
-            <a href="#">Tools</a>
-            <a href="#">Base</a>
-            <a href="#">Custom</a>
-            <a href="#">More</a>
-            <a href="#">Logo</a>
-            <a href="#">Friends</a>
-            <a href="#">Partners</a>
-            <a href="#">People</a>
-            <a href="#">Work</a>
-            <a href="#">Back</a>
-            <a href="#">Lonk</a>
+         
+
+          <div className="newproject">
+
+          {/* <i class="fa-solid fa-alarm-clock"></i> */}
 
 
-           </div>
+          <div className="first">
+            <img src="public/img/car.jpg" alt="" />
+            <p>BERRY</p>
+            <div className="icon">
+               <a href="#">A</a>
+               <a href="#">B</a>
+               <a href="#">C</a>
+               <a href="#">D</a>
 
+
+
+             </div>
+
+          </div>
+
+            
+          </div>
+         
 
 
 

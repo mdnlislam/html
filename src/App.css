@@ -1,19 +1,22 @@
-
-
-.scrollmenu{
-  background-color: black;
-  white-space: nowrap;
-  overflow: auto;
-
+.first img{
+ width: 30px;
+ height: 30px;
+ padding: 12px;
 }
-   .scrollmenu a{
-    display: inline-block;
-    padding: 14px;
-    text-decoration: none;
-    text-align: center;
-    color: white;
-   }
-   .scrollmenu a:hover{
-    background-color: #777;
-          
-   }
+
+.first{
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  box-shadow: 0 10px 10px 0 red;
+  padding: ;
+  
+}
+
+p{
+  margin: 0;
+  padding: 0;
+}
+.icon{
+  justify-content: right;
+}
