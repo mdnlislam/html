@@ -89,4 +89,10 @@
 
 .navbar{
     display: flex;
+    gap: 10px;
+}
+.Menu_Ber{
+    padding-top: 50px;
+    margin: 0;
+
 }
