@@ -1,22 +1,92 @@
-.first img{
- width: 30px;
- height: 30px;
- padding: 12px;
+
+
+
+.logo_card {
+    /* justify-content: right; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.project h2{
+    font-size: 16px;
+    color: rgb(90, 112, 131);
+}
+.project {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: beige; */
+}
+.logo_card a,li{
+    text-decoration: none;
+    list-style-type: none;
 }
 
-.first{
-  display: flex;
-  align-items: center;
-  /* justify-content: space-between; */
-  box-shadow: 0 10px 10px 0 red;
-  padding: ;
-  
+
+.logo_area{
+    display: flex;
+
+}
+.Infrom_text{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+.logo_area img{
+    width:150px;
+    height: 150px;
+
+}
+.heading{
+    font-size:20px;
+    /* text-align: center; */
+    padding:30px;
+    color:rgb(23, 89, 111) ;
+}
+.span_1{
+    letter-spacing: 5px;
+    padding-right: 5px;
+    font-size: 16px;
+}
+.span_2{
+    word-spacing: 5px;
+    font-size: 10px;
+
+}
+.span_3{
+    font-size: 16px;
+}
+.Infrom_text a{
+    background-color: green;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    border: 3px solid green;
+    border-radius: 10px;
+    padding: 7px;
 }
 
-p{
-  margin: 0;
-  padding: 0;
+
+/* new_1 */
+/* .Menu_Ber{
+    display: flex;
+    
+    
 }
-.icon{
-  justify-content: right;
+.About_content{
+    align-items: center;
+    display: block;
+    justify-content: center;
+    padding: 4px;
+    overflow: hidden;
+}
+
+
+.subnav{
+    display: block;
+} */
+
+.navbar{
+    display: flex;
 }
