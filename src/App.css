@@ -96,3 +96,48 @@
     margin: 0;
 
 }
+.navbar a{
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    border: 3px solid black;
+}
+.subnav .subnavbtn{
+    font-size: 16px;
+    border: none;
+}
+.subnav_content{
+    display: none;
+    position: absolute;
+    background-color: aqua;
+    border: 2px solid green;
+    color: white;
+}
+
+.subnav:hover .subnav_content{
+    display: block;
+}
+.navbar,AB{
+    border: none;
+}
+
+/* new building */
+.border{
+   
+    padding-top:30px;
+    
+}
+.border_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.border_content h2,h3{
+    letter-spacing: 20px;
+    color:palevioletred;
+}
+.varsity_picture img{
+    width: 100%;
+    height: 500px;
+}

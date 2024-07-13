@@ -42,7 +42,7 @@ function ProductCard() {
                 <div className="Menu_Ber">
 
                   <div className="navbar">
-                     <a href="#">Home</a>
+                     <a className="AB" href="#">Home</a>
                      <div className="subnav">
                    <button className="subnavbtn">About</button>
                        <div className="subnav_content">
@@ -150,32 +150,23 @@ function ProductCard() {
                           
                        </div>
                      </div>
-
-
-
-
-
-
-
                   </div>
-
-                   
-
-
-
-
-
-
-
-
-
-
-
-
                 </div>
 
         
-         
+             {/* new building */}
+
+             <div className="border">
+              <div className="border_content">
+              <h2> PUBLIC</h2>
+              <h3>UNIVERSITY</h3>
+
+              </div>
+             </div>
+
+             <div className="varsity_picture">
+               <img src="public/img/varsity.jpg" alt="" />
+             </div>
 
 
 
