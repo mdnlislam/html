@@ -110,8 +110,8 @@
 .subnav_content{
     display: none;
     position: absolute;
-    background-color: aqua;
-    border: 2px solid green;
+    background-color: rgb(134, 174, 174);
+    border: 1px solid green;
     color: white;
 }
 
@@ -140,4 +140,35 @@
 .varsity_picture img{
     width: 100%;
     height: 500px;
+}
+
+.Picture_content{
+    font-size: 16PX;
+    /* border: 2px solid red; */
+    width: 200px;
+    
+}
+.Picture_content a{
+    text-decoration: none;
+    
+    
+
+}
+.Picture_content li{
+    padding: 10px;
+    border: 2px solid green;
+    text-align: center;
+    background-color: aliceblue;
+}
+.varsity_picture{
+    position: relative;
+}
+
+.Picture_content{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.Picture_content, .red a{
+    background-color: red;
 }

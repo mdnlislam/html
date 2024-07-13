@@ -166,6 +166,18 @@ function ProductCard() {
 
              <div className="varsity_picture">
                <img src="public/img/varsity.jpg" alt="" />
+
+                <ul className="Picture_content">
+                  <li className="red"><a href="#">ONLINE ADMISSION</a></li>
+                  <li><a href="#">COURSE OFFER</a></li>
+                  <li><a href="#">COURSES & TUITION FEES</a></li>
+                  <li><a href="#">STUDENT GUIDELINE FOR FRESHERS</a></li>
+                  <li><a href="#">1ST SENESTER CLASS ROUTINE</a></li>
+                  <li><a href="#"></a>EXAM SCHEDULE</li>
+
+
+
+                </ul>
              </div>
 
 
