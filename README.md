@@ -52,3 +52,15 @@ https://res.cloudinary.com/dnhpk5q85/image/upload/v1717503717/social%20icons/a1b
 
 <!-- instugram -->
 https://res.cloudinary.com/dnhpk5q85/image/upload/v1717503629/social%20icons/pe2obv89kgdyiyqs8rv2.png
+
+
+<!-- gor -->
+<i class="fa-regular fa-house-chimney"></i>
+<!-- book -->
+<i class="fa-duotone fa-book-open-cover"></i>
+<!-- camera -->
+<i class="fa-thin fa-camera-retro"></i>
+<!-- heand -->
+<i class="fa-solid fa-handshake"></i>
+<!-- man -->
+<i class="fa-solid fa-people-roof"></i>

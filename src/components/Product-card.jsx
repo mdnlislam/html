@@ -42,7 +42,7 @@ function ProductCard() {
                 <div className="Menu_Ber">
 
                   <div className="navbar">
-                     <a className="AB" href="#">Home</a>
+                     {/* <p>Home</p> */}
                      <div className="subnav">
                    <button className="subnavbtn">About</button>
                        <div className="subnav_content">
@@ -175,10 +175,50 @@ function ProductCard() {
                   <li><a href="#">1ST SENESTER CLASS ROUTINE</a></li>
                   <li><a href="#"></a>EXAM SCHEDULE</li>
 
-
-
                 </ul>
              </div>
+
+
+             {/* New work */}
+
+             <div className="some_logo">
+               <a href="#"><i class="fa-solid fa-people-roof"></i></a>
+              <div className="logo_contant">
+               <p>Alumni</p>
+              </div>
+
+             </div>
+
+
+             <div className="some_logo">
+               <a href="#"><i class="fa-solid fa-handshake"></i></a>
+              <div className="logo_contant">
+               <p>Students Affairs</p>
+              </div>
+
+             </div>
+
+
+             <div className="some_logo">
+               <a href="#"><i class="fa-regular fa-house-chimney"></i></a>
+              <div className="logo_contant">
+               <p>Organogram</p>
+              </div>
+
+             </div>
+
+             <div className="some_logo">
+               <a href="#"><i class="fa-solid fa-book-user"></i></a>
+              <div className="logo_contant">
+               <p>Library</p>
+              </div>
+
+             </div>
+             
+             
+
+
+
 
 
 

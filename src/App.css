@@ -148,7 +148,7 @@
 .Picture_content{
     font-size: 16PX;
     /* border: 2px solid red; */
-    width: 200px;
+    width: 250px;
     
 }
 .Picture_content a{
@@ -158,10 +158,10 @@
 
 }
 .Picture_content li{
-    padding: 10px;
+    padding: 25px;
     border: 2px solid green;
     text-align: center;
-    background-color: aliceblue;
+    background-color: rgb(107, 171, 127);
 }
 .varsity_picture{
     position: relative;
@@ -169,9 +169,26 @@
 
 .Picture_content{
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 0; 
+    padding-left: 0;
 }
-.Picture_content, .red a{
-    background-color: red;
+.Picture_content, a{
+    color:black;
 }
+
+/* New Work */
+
+.fa-people-roof{
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+/* .some_logo{
+    position: relative;
+}
+
+.logo_contant{
+    position: absolute;
+    
+
+} */
