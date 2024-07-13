@@ -6,6 +6,7 @@
     display: flex;
     align-items: center;
     gap: 20px;
+    
 }
 .project h2{
     font-size: 16px;
@@ -14,7 +15,7 @@
 .project {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     /* background-color: beige; */
 }
 .logo_card a,li{
@@ -25,6 +26,7 @@
 
 .logo_area{
     display: flex;
+    justify-content: space-around;
 
 }
 .Infrom_text{
@@ -90,10 +92,11 @@
 .navbar{
     display: flex;
     gap: 10px;
+    justify-content: center;
 }
 .Menu_Ber{
     padding-top: 50px;
-    margin: 0;
+    /* margin:0 ; */
 
 }
 .navbar a{
