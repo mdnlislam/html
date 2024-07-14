@@ -168,19 +168,19 @@ function ProductCard() {
                <img src="public/img/varsity.jpg" alt="" />
 
                 <ul className="Picture_content">
-                  <li className="red"><a href="#">ONLINE ADMISSION</a></li>
+                  <li><a href="#">ONLINE ADMISSION</a></li>
                   <li><a href="#">COURSE OFFER</a></li>
                   <li><a href="#">COURSES & TUITION FEES</a></li>
                   <li><a href="#">STUDENT GUIDELINE FOR FRESHERS</a></li>
                   <li><a href="#">1ST SENESTER CLASS ROUTINE</a></li>
-                  <li><a href="#"></a>EXAM SCHEDULE</li>
+                  <li><a className="B" href="#"></a>EXAM SCHEDULE</li>
 
                 </ul>
              </div>
 
 
              {/* New work */}
-
+               <div className="new_work">
              <div className="some_logo">
                <a href="#"><i class="fa-solid fa-people-roof"></i></a>
               <div className="logo_contant">
@@ -214,10 +214,19 @@ function ProductCard() {
               </div>
 
              </div>
+
+             <div className="some_logo">
+               <a href="#"><i class="fa-thin fa-camera-retro"></i></a>
+              <div className="logo_contant">
+               <p>Gallery</p>
+              </div>
+
+             </div>
+             
              
              
 
-
+             </div>
 
 
 

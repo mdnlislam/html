@@ -153,10 +153,10 @@
 }
 .Picture_content a{
     text-decoration: none;
-    
-    
-
+    color: white;
 }
+
+
 .Picture_content li{
     padding: 25px;
     border: 2px solid green;
@@ -181,6 +181,7 @@
 .fa-people-roof{
     font-size: 40px;
     padding-top: 10px;
+    color: #928787;
 }
 
 /* .some_logo{
@@ -192,3 +193,42 @@
     
 
 } */
+
+.fa-handshake{
+    font-size: 40px;
+    color: #928787;
+}
+
+.fa-house-chimney{
+    font-size: 40px;
+    color: #928787;
+}
+.fa-book-user{
+    font-size: 40px;
+    color:#928787 ;
+    
+}
+.fa-camera-retro{
+    font-size: 40px;
+    color: #928787;
+}
+
+.new_work{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    /* height: 20px; */
+    padding-top: 10px;
+    border: 2px solid red;
+    background-color: white;
+}
+
+.some_logo{
+    text-align: center;
+    align-items: center;
+    
+}
+.logo_contant{
+    color: #7a6b6b;
+}
