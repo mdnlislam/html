@@ -247,15 +247,41 @@ function ProductCard() {
                  </p>
                  <h2>Chairman</h2>
                  <p>European University of Bangladesh</p>
+                 
 
+            <button>More</button>
 
-
-
-
-
-
+             <div className="picture">
+              <img src="public/img/Rakib.jpg" alt="" />
 
              </div>
+             </div>
+
+               
+               {/* New Work */}
+
+
+          <div className="Activities">
+
+              <h2>Activities and Notices</h2>
+
+
+              <div className="work_13">
+                <p>13</p>
+                <p>07,2024</p>
+
+              </div>
+              
+
+
+
+
+
+
+
+
+
+            </div>     
 
 
 

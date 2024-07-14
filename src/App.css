@@ -212,6 +212,10 @@
     font-size: 40px;
     color: #928787;
 }
+/* .fa-book-user{
+    font-size: 40px;
+    color: red;
+} */
 
 .new_work{
     display: flex;
@@ -220,7 +224,7 @@
     gap: 100px;
     /* height: 20px; */
     padding-top: 10px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background-color: white;
 }
 
@@ -237,11 +241,39 @@
 /* new work */
 
   .text{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding-left: 15%;
+    /* padding: 10px; */
     
   }
   .text p{
     font-size: 16px;
     width: 60%;
   }
+  .text h2{
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .text{
+    background-color: #eae9e9;
+    position: relative;
+  }
+
+  .picture{
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  /* New work */
+
+  .p{
+    display: block;
+    align-items: center;
+    /* text-align: center; */
+    justify-content: center;
+    border: 1px solid red;
+  }
+
+
+
