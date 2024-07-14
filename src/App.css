@@ -232,3 +232,16 @@
 .logo_contant{
     color: #7a6b6b;
 }
+
+
+/* new work */
+
+  .text{
+    border: 2px solid red;
+    padding-left: 15%;
+    
+  }
+  .text p{
+    font-size: 16px;
+    width: 60%;
+  }

@@ -222,9 +222,38 @@ function ProductCard() {
               </div>
 
              </div>
-             
-             
-             
+             </div>
+
+
+
+             {/* new work */}
+
+
+             <div className="text">
+
+                 <h2>Message from Chaiman</h2>
+
+                 <p>
+                  The European University of Bangladesh has started its journey tomards achieving excellence in higher education in this country in 
+                  its consideration, the fount of progress in Europ has been higher education centering around science and technology in search of 
+                  excellence the European , the European University of Bangladesh will, go at length , to emulate the ways traversed by universities and institution 
+                  of higher  educatin and learning in Europ.
+                 </p>
+
+                 <h2>Muhiuddin Khan Alamgir</h2>
+                 <p>
+                  Ph.D.M.A <br /> University of Dhaka <br />Boston University 
+
+                 </p>
+                 <h2>Chairman</h2>
+                 <p>European University of Bangladesh</p>
+
+
+
+
+
+
+
 
              </div>
 
