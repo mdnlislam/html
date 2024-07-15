@@ -267,13 +267,42 @@
 
   /* New work */
 
-  .p{
+ .work_13 p{
+    font-size: 16px;
+ }
+
+ .work_13{
+    border: 2px solid black;
+    width: 70px;
     display: block;
-    align-items: center;
-    /* text-align: center; */
-    justify-content: center;
-    border: 1px solid red;
-  }
+    text-align: center;
+    background-color: rgb(12, 12, 176);
+    color: white;
+    
+ }
+    .logo{
+        border: 2px solid black;
+        width: 70px;
+        display: block;
+        /* padding-top: 50px; */
+        text-align: center;
+        height: 40px;
+        padding-top: 22px;
+        background-color: #ddd;
+        
+    }
+    .fa-pen-fancy{
+        font-size: 20px;
+        text-align: center;
+        align-items: center;
+    }
+    
+    
+ 
 
+ 
 
+ 
+
+ 
 

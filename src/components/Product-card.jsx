@@ -266,13 +266,19 @@ function ProductCard() {
               <h2>Activities and Notices</h2>
 
 
-              <div className="work_13">
-                <p>13</p>
-                <p>07,2024</p>
+             
+             <div className="work_13">
+              <p>13</p>
+              <p>07,2024</p>
 
-              </div>
-              
+             </div>
 
+             <div className="logo">
+             <a href="#"><i class="fa-sharp fa-solid fa-pen-fancy"></i></a>
+             </div>
+             
+
+             
 
 
 
