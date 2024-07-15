@@ -265,7 +265,9 @@ function ProductCard() {
 
               <h2>Activities and Notices</h2>
 
+                 <div className="Menu_ber">
 
+                 
              
              <div className="work_13">
               <p>13</p>
@@ -276,11 +278,46 @@ function ProductCard() {
              <div className="logo">
              <a href="#"><i class="fa-sharp fa-solid fa-pen-fancy"></i></a>
              </div>
+
+             <div className="text_1">
+                <p>Exam Notice (Supple.Midterm Exam.Summer-2024)</p>
+                <p>Jule 13th,2024</p>
+             </div>
+
+             <div className="work_13">
+              <p>13</p>
+              <p>07,2024</p>
+
+             </div>
+
+             <div className="logo">
+             <a href="#"><i class="fa-sharp fa-solid fa-pen-fancy"></i></a>
+             </div>
+
+             <div className="text_1">
+                <p>Exam Notice (Supple.Midterm Exam.Summer-2024)</p>
+                <p>Jule 13th,2024</p>
+             </div>
+
+             <div className="work_13">
+              <p>13</p>
+              <p>07,2024</p>
+
+             </div>
+
+             <div className="logo">
+             <a href="#"><i class="fa-sharp fa-solid fa-pen-fancy"></i></a>
+             </div>
+
+             <div className="text_1">
+                <p>Exam Notice (Supple.Midterm Exam.Summer-2024)</p>
+                <p>Jule 13th,2024</p>
+             </div>
              
 
              
 
-
+             </div>
 
 
 

@@ -272,7 +272,7 @@
  }
 
  .work_13{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 70px;
     display: block;
     text-align: center;
@@ -281,7 +281,7 @@
     
  }
     .logo{
-        border: 2px solid black;
+        /* border: 2px solid black; */
         width: 70px;
         display: block;
         /* padding-top: 50px; */
@@ -296,8 +296,13 @@
         text-align: center;
         align-items: center;
     }
+    .text_1{
+        width: 70px;
+    }
     
-    
+    .Menu_ber{
+        display: flex;
+    }
  
 
  
