@@ -385,44 +385,40 @@ function ProductCard() {
 
             {/* new step */}
 
-              <div className="homeous">
-            <div className="Undergraduate">
-              <a href="#"><i class="fa-solid fa-graduation-cap"></i></a>
-              <h4>Undergraduate Program</h4>
-
-              <div className="program_contant">
-                 <a href="#">About</a>
-                 <a href="#">Home</a>
-              </div>
-            </div>
-
-
-            <div className="Undergraduate">
-              <a href="#"><i class="fa-solid fa-graduation-cap"></i></a>
-              <h4>Undergraduate Program</h4>
-            </div>
+             
+            <div className="step_ber">
 
             
-            <div className="Undergraduate">
+
+           <div className="step">
+            <div className="header">
               <a href="#"><i class="fa-solid fa-graduation-cap"></i></a>
-              <h4>Undergraduate Program</h4>
+              <h1>Undergraduate Programs</h1>
             </div>
-
-
-
-               
-                                                              
-               
-
-
+            <div className="content">
+              <a href="#">Civil Engineering</a> <br />
+              <a href="#">Electrical & Electronic Engineering</a>
 
             </div>
 
+           </div>
+
+           <div className="step">
+            <div className="header">
+              <a href="#"><i class="fa-solid fa-graduation-cap"></i></a>
+              <h1>Step 1 title</h1>
+            </div>
+            <div className="content">
+              <p>th best of luck</p>
+
+            </div>
+
+           </div>
 
 
 
-
-
+           </div>
+          
 
 
 
