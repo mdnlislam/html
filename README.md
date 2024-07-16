@@ -64,3 +64,6 @@ https://res.cloudinary.com/dnhpk5q85/image/upload/v1717503629/social%20icons/pe2
 <i class="fa-solid fa-handshake"></i>
 <!-- man -->
 <i class="fa-solid fa-people-roof"></i>
+
+<!-- pen -->
+<i class="fa-sharp fa-solid fa-pen-fancy"></i>

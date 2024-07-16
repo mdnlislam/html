@@ -261,53 +261,80 @@
 
   .picture{
     position: absolute;
-    top: 0;
+    top: -30px;
     right: 0;
   }
 
   /* New work */
 
- .work_13 p{
-    font-size: 16px;
- }
-
- .work_13{
-    /* border: 2px solid black; */
-    width: 70px;
+.Activ button{
     display: block;
-    text-align: center;
-    background-color: rgb(12, 12, 176);
+    background-color: blue;
     color: white;
-    
+}
+
+.logo{
+    width: 62px;
+    /* border: 1px solid red; */
+    padding-top: 10px;
+    text-align: center;
+    background-color: #ddd;
+}
+ .Activities{
+    display: flex;
+    gap: 20px;
  }
-    .logo{
-        /* border: 2px solid black; */
-        width: 70px;
-        display: block;
-        /* padding-top: 50px; */
-        text-align: center;
-        height: 40px;
-        padding-top: 22px;
-        background-color: #ddd;
-        
-    }
-    .fa-pen-fancy{
-        font-size: 20px;
-        text-align: center;
-        align-items: center;
-    }
-    .text_1{
-        width: 70px;
-    }
-    
-    .Menu_ber{
-        display: flex;
-    }
- 
+
+
+   /* new step */
+
+    .Message{
+    border: 1px solid red;
+    background-color:#eae9e9 ;
+   }
+
+
+    .heading_5, .paragrap_5 {
+    font-size: 16px;
+    margin-left: 30%;
+    margin-right: 10%;
+   }
+
+    .Message{
+    position: relative;
+    top: 0;
+   }
+
+   .Message_contant_5{
+    position: absolute;
+    top:0 ;
+   }
+   .Message_contant_5 img{
+    height: 150px;
+    margin-left: 20px;
+    margin-top: -3px;
+   }   
+
+
+   /* new stopic */
+
+   .Undergraduate{
+    display: flex;
+    align-items: center;
+   }
+
+   .homeous{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+   }
+   .program_contant{
+    display: block;
+   }
 
  
 
  
 
  
-
+ 

@@ -261,73 +261,162 @@ function ProductCard() {
                {/* New Work */}
 
 
-          <div className="Activities">
+        
 
               <h2>Activities and Notices</h2>
 
-                 <div className="Menu_ber">
+              <div className="Activities"> 
 
-                 
-             
-             <div className="work_13">
-              <p>13</p>
-              <p>07,2024</p>
 
+               <div className="Activ">
+
+
+                  <button>13 <br />07,2024</button>
+                  
+                <div className="logo">
+                <a href="#"><i class="fa-sharp fa-solid fa-pen-fancy"></i></a>
+                </div>
+                    <div className="logo_contant">
+                         <p>Exam notice (Supple Midterm Exam Summer)</p>
+                    </div>
+
+               </div>
+
+
+               
+               <div className="Activ">
+
+
+                  <button>13 <br />07,2024</button>
+                  
+                <div className="logo">
+                <a href="#"><i class="fa-sharp fa-solid fa-pen-fancy"></i></a>
+                </div>
+                <div className="logo_contant">
+                         <p>Exam notice (Supple Midterm Exam Summer)</p>
+                    </div>
+               </div>
+
+
+               <div className="Activ">
+
+
+                <button>13 <br />07,2024</button>
+
+                <div className="logo">
+                <a href="#"><i class="fa-sharp fa-solid fa-pen-fancy"></i></a>
+                  </div>
+                  <div className="logo_contant">
+                         <p>Exam notice (Supple Midterm Exam Summer)</p>
+                    </div>
+                    </div>
+
+
+
+
+
+
+                   <div className="Activ">
+
+
+               <button>13 <br />07,2024</button>
+
+              <div className="logo">
+              <a href="#"><i class="fa-sharp fa-solid fa-pen-fancy"></i></a>
+             </div>
+             <div className="logo_contant">
+                         <p>Exam notice (Supple Midterm Exam Summer)</p>
+                    </div>
              </div>
 
-             <div className="logo">
+
+
+
+
+               <div className="Activ">
+
+
+                <button>13 <br />07,2024</button>
+
+              <div className="logo">
              <a href="#"><i class="fa-sharp fa-solid fa-pen-fancy"></i></a>
-             </div>
+              </div>
+              <div className="logo_contant">
+                         <p>Exam notice (Supple Midterm Exam Summer)</p>
+                    </div>
+            </div>
 
-             <div className="text_1">
-                <p>Exam Notice (Supple.Midterm Exam.Summer-2024)</p>
-                <p>Jule 13th,2024</p>
-             </div>
 
-             <div className="work_13">
-              <p>13</p>
-              <p>07,2024</p>
 
-             </div>
 
-             <div className="logo">
+                 <div className="Activ">
+
+
+                <button>13 <br />07,2024</button>
+
+               <div className="logo">
              <a href="#"><i class="fa-sharp fa-solid fa-pen-fancy"></i></a>
-             </div>
-
-             <div className="text_1">
-                <p>Exam Notice (Supple.Midterm Exam.Summer-2024)</p>
-                <p>Jule 13th,2024</p>
-             </div>
-
-             <div className="work_13">
-              <p>13</p>
-              <p>07,2024</p>
-
-             </div>
-
-             <div className="logo">
-             <a href="#"><i class="fa-sharp fa-solid fa-pen-fancy"></i></a>
-             </div>
-
-             <div className="text_1">
-                <p>Exam Notice (Supple.Midterm Exam.Summer-2024)</p>
-                <p>Jule 13th,2024</p>
-             </div>
-             
-
-             
-
-             </div>
-
-
-
-
-
-
+              </div>
+              <div className="logo_contant">
+                         <p>Exam notice (Supple Midterm Exam Summer)</p>
+                    </div>
+               </div>
             </div>     
 
+            {/* new step */}
 
 
+            <div className="Message">
+
+              <h2 className="heading_5">Message From Vice Chairman</h2>
+              <p className="paragrap_5">It is my great pleasure to offer a message of goodwill to potential students, guardians, educationists and other members of the society on behalf of the European University of Bangladesh (EUB). We shall be more than happy to welcome you at our campus to exchange and share your views.
+              The determinants of development have been changing from manufacturing to services and from capital resources to knowledge resources. <button>More</button></p>
+
+            
+
+            <div className="Message_contant_5">
+              <img src="public/img/Rakib.jpg" alt="" />
+
+            </div>
+            </div>
+
+
+
+
+            {/* new step */}
+
+              <div className="homeous">
+            <div className="Undergraduate">
+              <a href="#"><i class="fa-solid fa-graduation-cap"></i></a>
+              <h4>Undergraduate Program</h4>
+
+              <div className="program_contant">
+                 <a href="#">About</a>
+                 <a href="#">Home</a>
+              </div>
+            </div>
+
+
+            <div className="Undergraduate">
+              <a href="#"><i class="fa-solid fa-graduation-cap"></i></a>
+              <h4>Undergraduate Program</h4>
+            </div>
+
+            
+            <div className="Undergraduate">
+              <a href="#"><i class="fa-solid fa-graduation-cap"></i></a>
+              <h4>Undergraduate Program</h4>
+            </div>
+
+
+
+               
+                                                              
+               
+
+
+
+            </div>
 
 
 
