@@ -263,7 +263,9 @@ function ProductCard() {
 
         
 
+              <div className="notices">
               <h2>Activities and Notices</h2>
+              </div>
 
               <div className="Activities"> 
 
@@ -481,50 +483,75 @@ function ProductCard() {
 
                         <p>LIKE OUR SOCIAL MEDIA</p>
                         <div className="social">
-                           <a href="#">
-                            <img src="https://res.cloudinary.com/dnhpk5q85/image/upload/v1717503771/social%20icons/fyllcitxotvo9ejupfce.png" alt="" />
+                          <div className="social_content">
+                          <a href="#">
+                           <i class="fa-brands fa-facebook"></i>
                            </a>
                            <a href="#">
-                            <img src="https://res.cloudinary.com/dnhpk5q85/image/upload/v1717503569/social%20icons/wd4rq5klahslvhmvuldj.png" alt="" />
+                           <i class="fa-brands fa-twitter"></i>
                            </a>
                            <a href="#">
-                            <img src="https://res.cloudinary.com/dnhpk5q85/image/upload/v1717503629/social%20icons/pe2obv89kgdyiyqs8rv2.png" alt="" />
+                           <i class="fa-brands fa-instagram"></i>
                            </a>
+                          </div>
                         </div>
                    </div>
                  </div>
 
                  <div className="information">
-                   <h5>CONTACT INFORMATION</h5>
+                   <h5>IMPORTANT LINKS</h5>
 
                    <div className="information_content">
-                        <p>EUB Permanent Campus</p>
-                        <p>2/4, Gabtoli, Mirpur, Dhaka-1216</p>
+                        {/* <p>EUB Permanent Campus</p> */}
+                        {/* <p>2/4, Gabtoli, Mirpur, Dhaka-1216</p> */}
+                        <a href="#">UGC, Bangladesh</a>
+                        <a href="#">Ministry of Education, Bangladesh</a>
+                        <a href="#">Check Email</a>
+                        <a href="#">Jobs at EUB</a>
+                        <a href="#">Sitemap</a>
+                        <a href="#">European Family</a>
+                        <a href="#">BD Jobs</a>
                    </div>
                  </div>
 
                  <div className="information">
-                   <h5>CONTACT INFORMATION</h5>
+                   <h5>RESEARCH & PUBLICATION</h5>
 
                    <div className="information_content">
-                        <p>EUB Permanent Campus</p>
-                        <p>2/4, Gabtoli, Mirpur, Dhaka-1216</p>
+                        {/* <p>EUB Permanent Campus</p> */}
+                        {/* <p>2/4, Gabtoli, Mirpur, Dhaka-1216</p> */}
+                        <a href="#">Institutional Repository</a>
+                        <a href="#">Research Journals »»</a>
+                        <a href="#">Research Publications</a>
+                        <a href="#">Research Centers</a>
+                        <a href="#">Media Coverage</a>
+                        <a href="#">Newsletter</a>
+                        <a href="#">EUB Blog</a>
+
                    </div>
                  </div>
 
                  <div className="information">
-                   <h5>CONTACT INFORMATION</h5>
+                   <h5>APPROVED BY:</h5>
 
                    <div className="information_content">
-                        <p>EUB Permanent Campus</p>
-                        <p>2/4, Gabtoli, Mirpur, Dhaka-1216</p>
+                        <p>University Grants</p>
+                        <p>Commission (UGC)</p>
+
+                        <p>Govt.of the </p>
+                        <p>Peoples Republic of</p>
+                        <p>Bangladesh</p>
                    </div>
                  </div>
+              </div>
 
+              {/* new topic */}
 
-
+              <div className="University">
+                <p>© 2012-2024 European University of Bangladesh (EUB), All Rights Reserved. | Developed and Maintained by : EUB ICT Division</p>
 
               </div>
+
 
           
 
