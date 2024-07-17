@@ -396,8 +396,17 @@ function ProductCard() {
               <h1>Undergraduate Programs</h1>
             </div>
             <div className="content">
-              <a href="#">Civil Engineering</a> <br />
-              <a href="#">Electrical & Electronic Engineering</a>
+              <a className="A" href="#">Civil Engineering</a>
+              <a className="B" href="#">Electrical & Electronic Engineering</a>
+              <a href="#">Textile Engineering</a>
+              <a href="#">Computer Science Engineering</a>
+              <a href="#">Business Administration ( BBA )</a>
+              <a href="#">Law (LLB-Hons)</a>
+              <a href="#">B.A (Honours) in English</a>
+              <a href="#">Tourism and Hospitality Management</a>
+              <a href="#"> BSS (Hons. in Economics)</a>
+              <a href="#">Industrial Production Engineering</a>
+              
 
             </div>
 
@@ -406,10 +415,16 @@ function ProductCard() {
            <div className="step">
             <div className="header">
               <a href="#"><i class="fa-solid fa-graduation-cap"></i></a>
-              <h1>Step 1 title</h1>
+              <h1>Graduate Programs</h1>
             </div>
             <div className="content">
-              <p>th best of luck</p>
+            <a href="#">MBA</a>
+              <a href="#">E MBA</a>
+              <a href="#">MA in English</a>
+              <a href="#">LL.M</a>
+              <a href="#">Master in Governance and Development Studies</a>
+              <a href="#">MSS in Economics</a>
+             
 
             </div>
 
@@ -417,7 +432,46 @@ function ProductCard() {
 
 
 
+           <div className="step">
+            <div className="header">
+              <a href="#"><i class="fa-solid fa-graduation-cap"></i></a>
+              <h1>Students Information</h1>
+            </div>
+            <div className="content">
+            <a href="#">Administration and Office of the Registrar</a>
+              <a href="#">Office of the Controller of Examination</a>
+              <a href="#">Program Co-ordination</a>
+              <a href="#">Office of the Admission & Student Affairs</a>
+              <a href="#">Important Notice for Students</a>
+              <a href="#">Admission Information</a>
+              <a href="#">Courses Tuition Fees</a>
+              <a href="#">Contact Admission Office</a>
+              <a href="#">Clubs And Co-Curriculars</a>
+             
+
+            </div>
+
            </div>
+
+           </div>
+
+
+           <div className="video_container">
+               <video controls src="public/img/video.mp4"></video>
+
+
+               <div className="container_picture">
+                <img src="https://res.cloudinary.com/dnhpk5q85/image/upload/v1716914477/social%20icons/lvvx1nqo7wwabm9t9wog.png" alt="" />
+
+               </div>
+
+              </div>
+
+
+              {/* new topic */}
+
+              
+
           
 
 
