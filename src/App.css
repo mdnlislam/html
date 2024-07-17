@@ -393,3 +393,15 @@
  
   /* new topic */
  
+     .contact{
+        display: flex;
+        justify-content: center;
+        gap: 70px;
+        background-color: rgb(8, 8, 195);
+        color: white;
+     }
+     .social a{
+        /* display: block; */
+        padding: 7px;
+        color:brown ;
+     }

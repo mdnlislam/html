@@ -470,7 +470,61 @@ function ProductCard() {
 
               {/* new topic */}
 
-              
+              <div className="contact">
+
+                 <div className="information">
+                   <h5>CONTACT INFORMATION</h5>
+
+                   <div className="information_content">
+                        <p>EUB Permanent Campus</p>
+                        <p>2/4, Gabtoli, Mirpur, Dhaka-1216</p>
+
+                        <p>LIKE OUR SOCIAL MEDIA</p>
+                        <div className="social">
+                           <a href="#">
+                            <img src="https://res.cloudinary.com/dnhpk5q85/image/upload/v1717503771/social%20icons/fyllcitxotvo9ejupfce.png" alt="" />
+                           </a>
+                           <a href="#">
+                            <img src="https://res.cloudinary.com/dnhpk5q85/image/upload/v1717503569/social%20icons/wd4rq5klahslvhmvuldj.png" alt="" />
+                           </a>
+                           <a href="#">
+                            <img src="https://res.cloudinary.com/dnhpk5q85/image/upload/v1717503629/social%20icons/pe2obv89kgdyiyqs8rv2.png" alt="" />
+                           </a>
+                        </div>
+                   </div>
+                 </div>
+
+                 <div className="information">
+                   <h5>CONTACT INFORMATION</h5>
+
+                   <div className="information_content">
+                        <p>EUB Permanent Campus</p>
+                        <p>2/4, Gabtoli, Mirpur, Dhaka-1216</p>
+                   </div>
+                 </div>
+
+                 <div className="information">
+                   <h5>CONTACT INFORMATION</h5>
+
+                   <div className="information_content">
+                        <p>EUB Permanent Campus</p>
+                        <p>2/4, Gabtoli, Mirpur, Dhaka-1216</p>
+                   </div>
+                 </div>
+
+                 <div className="information">
+                   <h5>CONTACT INFORMATION</h5>
+
+                   <div className="information_content">
+                        <p>EUB Permanent Campus</p>
+                        <p>2/4, Gabtoli, Mirpur, Dhaka-1216</p>
+                   </div>
+                 </div>
+
+
+
+
+              </div>
 
           
 
