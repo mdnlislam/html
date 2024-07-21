@@ -572,6 +572,29 @@ function ProductCard() {
     </div>
 
 
+     {/* new item      agola dealet dewya hobe */}
+
+
+         <div className="card_1">
+
+          <img src="public/img/rakib.jpg" alt="" />
+
+               <div className="content_6"> 
+              <h6>This is Title</h6>
+              <p>
+                The very nice of bangladesh in ouer county
+                The very nice of bangladesh in ouer county
+                The very nice of bangladesh in ouer county
+                The very nice of bangladesh in ouer county
+                The very nice of bangladesh in ouer county
+                The very nice of bangladesh in ouer county
+                The very nice of bangladesh in ouer county
+              </p>
+
+
+               <button>Clik Me</button>
+               </div>
+         </div>
 
 
 

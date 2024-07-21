@@ -187,31 +187,40 @@
 /* .Picture_content, a{
   color:white;
 } */
- 
+ .ADMISSION{
+  text-align: center;
+ }
 .online{
   background-color: rgb(84, 68, 177);
   padding: 8px;
+  height: 30px;
+  text-align: center;
   
 }
 .course{
   background-color: rgb(120, 177, 34);
   padding: 8px;
+  height: 30px;
 }
 .tution{
   background-color: rgb(35, 116, 68);
   padding: 8px;
+  height: 30px;
 }
 .STUDENT{
   background-color: lightblue;
   padding: 8px;
+  height: 30px;
 }
 .ROUTINE{
   background-color: rgb(9, 246, 9);
   padding: 8px;
+  height: 30px;
 }
 .EXAM{
   background-color: aquamarine;
   padding: 8px;
+  height: 30px;
 }
 
 /* New Work */
@@ -320,9 +329,6 @@
 }
 .notices h2{
   margin-left: 10%;
-}
-.logo a{
-  text-size-adjust: 16px;
 }
 
 .logo{
@@ -503,3 +509,32 @@
       color: white;
       padding: 7px;
    }
+
+
+      /* new item */
+
+
+    .card_1{
+      width: 300px;
+      height:220px ;
+      border: 1px solid #ddd;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .card_1 img{
+      width: 300px;
+      height: 220px;
+    }
+
+    .content_6{
+      position: absolute;
+      bottom: -170px;
+      text-align: center;
+      color: white;
+    }
+
+    .content_6:hover{
+      top: 0;
+    }
+
