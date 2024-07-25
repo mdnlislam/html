@@ -170,7 +170,7 @@ function ProductCard() {
    <div className="varsity_picture">
      <img src="public/img/varsity.jpg" alt="" />
 
-      <ul className="Picture_content">
+      
         <div className="ADMISSION">
 
         
@@ -194,7 +194,7 @@ function ProductCard() {
         </div>
             
         </div>
-      </ul>
+      
    </div>
 
 
@@ -219,7 +219,7 @@ function ProductCard() {
 
 
    <div className="some_logo">
-     <a href="#"><i class="fa-regular fa-house-chimney"></i></a>
+     <a href="#"><i class="fa-solid fa-house"></i></a>
     <div className="logo_contant">
      <p>Organogram</p>
     </div>
@@ -227,7 +227,7 @@ function ProductCard() {
    </div>
 
    <div className="some_logo">
-     <a href="#"><i class="fa-solid fa-book-user"></i></a>
+     <a href="#"><i class="fa-solid fa-book-open"></i></a>
     <div className="logo_contant">
      <p>Library</p>
     </div>
@@ -235,7 +235,7 @@ function ProductCard() {
    </div>
 
    <div className="some_logo">
-     <a href="#"><i class="fa-thin fa-camera-retro"></i></a>
+     <a href="#"><i class="fa-solid fa-camera-retro"></i></a>
     <div className="logo_contant">
      <p>Gallery</p>
     </div>
@@ -376,7 +376,7 @@ function ProductCard() {
       <button>13 <br />07,2024</button>
 
      <div className="logo">
-   <a href="#"><i class="fa-sharp fa-solid fa-pen-fancy"></i></a>
+  <a href="#"><i class="fa-sharp fa-solid fa-pen-fancy"></i></a>
     </div>
     <div className="logo_contant">
                <p>Exam notice (Supple Midterm Exam Summer)</p>
@@ -575,28 +575,7 @@ function ProductCard() {
      {/* new item      agola dealet dewya hobe */}
 
 
-         <div className="card_1">
-
-          <img src="public/img/rakib.jpg" alt="" />
-
-               <div className="content_6"> 
-              <h6>This is Title</h6>
-              <p>
-                The very nice of bangladesh in ouer county
-                The very nice of bangladesh in ouer county
-                The very nice of bangladesh in ouer county
-                The very nice of bangladesh in ouer county
-                The very nice of bangladesh in ouer county
-                The very nice of bangladesh in ouer county
-                The very nice of bangladesh in ouer county
-              </p>
-
-
-               <button>Clik Me</button>
-               </div>
-         </div>
-
-
+       
 
 
 

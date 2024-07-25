@@ -154,19 +154,7 @@
   height: 500px;
 }
 
-.Picture_content{
-  font-size: 16PX;
-  /* border: 2px solid red; */
-  width: 250px;
-  padding: 10px;
-  
-  
-}
-.Picture_content a {
-  text-decoration: none;
-  color: white;
 
-}
 /* .Picture_content{
   padding: 25px;
   border: 2px solid green;
@@ -175,53 +163,72 @@
 .varsity_picture{
   position: relative;
 }
-
-.Picture_content{
+.ADMISSION{
   position: absolute;
-  top: 0; 
-  padding-left: 0;
+  top: 0;
   
+}
 
+.ADMISSION {
+       text-align: center;   
+       width: 300px;
 }
 
 /* .Picture_content, a{
   color:white;
 } */
- .ADMISSION{
-  text-align: center;
+ .ADMISSION a {
+  
+ border: 2px solid pink;
+ height: 40px;
+  /* text-align: center; */
+  align-items: center;
+  color: white;
  }
-.online{
+.online a{
   background-color: rgb(84, 68, 177);
-  padding: 8px;
-  height: 30px;
-  text-align: center;
+  
+   justify-content: center;
+   text-decoration: none;
+   padding: 5px;
+  
   
 }
-.course{
+.course a{
   background-color: rgb(120, 177, 34);
-  padding: 8px;
-  height: 30px;
+  justify-content: center;
+  text-decoration: none;
+  padding: 5px;
 }
-.tution{
+.tution a{
   background-color: rgb(35, 116, 68);
-  padding: 8px;
-  height: 30px;
+  justify-content: center;
+  text-decoration: none;
+  padding: 5px;
+  
 }
-.STUDENT{
+.STUDENT a{
   background-color: lightblue;
-  padding: 8px;
-  height: 30px;
+  justify-content: center;
+  text-decoration: none;
+  padding: 5px;
 }
-.ROUTINE{
+.ROUTINE a{
   background-color: rgb(9, 246, 9);
-  padding: 8px;
-  height: 30px;
+  
+  justify-content: center;
+  text-decoration: none;
+  padding: 5px;
 }
-.EXAM{
+.EXAM a{
   background-color: aquamarine;
-  padding: 8px;
-  height: 30px;
+  justify-content: center;
+  text-decoration: none;
+  padding: 5px;
+  
+
 }
+
 
 /* New Work */
 
@@ -240,17 +247,22 @@
   
 
 } */
+ .fa-handshake a{
+  text-decoration:none;
+ }
 
 .fa-handshake{
   font-size: 40px;
   color: #928787;
+  text-decoration: none;
 }
 
-.fa-house-chimney{
+.fa-house{
   font-size: 40px;
   color: #928787;
+  text-decoration: none;
 }
-.fa-book-user{
+.fa-book-open{
   font-size: 40px;
   color:#928787 ;
   
@@ -283,6 +295,10 @@
 }
 .logo_contant{
   color: #7a6b6b;
+}
+.logo p{
+  text-align: center;
+  margin-left: 5px;
 }
 
 
@@ -331,11 +347,14 @@
   margin-left: 10%;
 }
 
-.logo{
+.logo a{
   width: 62px;
-  border: 1px solid red;
-  /* padding-top: 10px;  */
+  border: 1px solid white;
+  /* padding: 10px;  */
   background-color: #ddd;
+  justify-content: center;
+  text-decoration: none;
+  
   
 }
 .Activities{
@@ -538,3 +557,4 @@
       top: 0;
     }
 
+     
