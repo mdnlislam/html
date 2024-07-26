@@ -1,65 +1,30 @@
 <!DOCTYPE html>
 <html>
  <head>
-    <title>Static page layout</title>
- 
+    <title>Liquid page layout</title>
+    <meta charset="UTF-8">
      <style>
-       .Wrapper{
-        overflow: auto;
-       }
+         .block{
+          width: 300px;
+          height: 300px;
+          margin-right:20px;
+          background-color: orange;
+          float: left;
+         }
+         @media (max-width: 480px) {
+  body {
+    background-color: olive;
+    color: white;
+  }
+}
 
-       #main {
-        margin-left: 4px;
-       }
-       #leftsidebar{
-        float: none;
-        width: auto;
-       }
-       #menulist{
-        margin: 0;
-        padding: 0;
-       }
-       .menuitem{
-        background-color: #CDF0F6;
-        border: 1px solid #d4d4d4;
-        border-radius: 4px;
-        list-style-type: none;
-        margin: 4px;
-        padding: 2px;
-       }
-       @media screen and (min-width:580px) {
-        #leftsidebar{width: 200px; float:left;}
-        #main { margin-left: 216px;}
-       }
      </style>
  </head>
  <body>
         
-    <div class="Wrapper">
-
-    <div id="leftsidebar">
-          <ul id="menulist">
-            <li class="menuitem">menu-item 1</li>
-            <li class="menuitem">menu-item 2</li>
-            <li class="menuitem">menu-item 3</li>
-            <li class="menuitem">menu-item 4</li>
-            <li class="menuitem">menu-item 5</li>
-
-
-          </ul>
-    </div>
-
-           <div id="main">
-  <h1>Resize  the browser window to see the effect!</h1>
-
-      <p>this examle shown a new that will float to the leftsidebar
-        veri deficalt of county of our of bangladesh very energy of bangla desh
-      </p>
-           </div>
-
-
-
-    </div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
 
 
  </body>

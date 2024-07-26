@@ -137,3 +137,8 @@ https://res.cloudinary.com/dnhpk5q85/image/upload/v1717503629/social%20icons/pe2
   /* CSS */
   
 }
+@media screen and (max-width: 992px) {
+  body {
+    background-color: blue;
+  }
+}
