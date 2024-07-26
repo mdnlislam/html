@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html>
  <head>
+    <title>Static page layout</title>
+ 
+     <style>
+       body{
+        background-color: pink;
+       }  
+       @media screen and (min-width:580px) {
+           body {
+            background-color: red;
+           }
+       }
 
-
+     </style>
  </head>
  <body>
-    <table>
-       
-        <div style="border: 2px solid red; width: 400px;
-        text-align: center; display: flex; justify-content: center;">
-           <a href="#">call</a>
-          <div>
-            <a href="#">doll</a>
-           
-          </div>
-        </div>
-    </table>
-
+    <h2>Resize the browser window to see the effect</h2>
+    <p>the mwdia query will only apply
+      if the mwdia type is screen and the 
+      viewport is 480px wide or wider
+    </p>
  </body>
 
 </html>
