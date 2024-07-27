@@ -1,17 +1,577 @@
 
-
-.Responsiv{
+/* responsive web design */
+@media (max-width:480px) {
+  .responsive{
+    width: 100%;
+    display: block;
+  }
   
 }
-.block{
-  width: 300px;
-  height: 300px;
-  margin-right:20px;
-  background-color: pink;
-  display: inline-flex;
+
+
+
+
+
+
+
+
+
+
+
+
+.logo_card {
+  /* justify-content: right; */
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  
 }
-@media (max-width:450px){
-    .block{
-      background-color: red;
+.project h2{
+  font-size: 16px;
+  color: rgb(90, 112, 131);
+}
+.project {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* background-color: beige; */
+}
+.logo_card a,li{
+  text-decoration: none;
+  list-style-type: none;
+}
+
+
+.logo_area{
+  display: flex;
+  justify-content: space-around;
+
+}
+.Infrom_text{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-right: 12%;
+  
+}
+.logo_area img{
+  width:100px;
+  height: 100px;
+  padding-left: 12%;
+  margin-top: 30px;
+
+}
+.heading{
+  font-size:25px;
+  /* text-align: center; */
+  padding:30px;
+  color:rgb(23, 89, 111) ;
+}
+.span_1{
+  letter-spacing: 5px;
+  padding-right: 5px;
+  font-size: 16px;
+}
+.span_2{
+  word-spacing: 5px;
+  font-size: 10px;
+
+}
+.span_3{
+  font-size: 16px;
+}
+.Infrom_text a{
+  background-color: green;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  border: 3px solid green;
+  border-radius: 10px;
+  padding: 7px;
+}
+
+
+/* new_1 */
+/* .Menu_Ber{
+  display: flex;
+  
+  
+}
+.About_content{
+  align-items: center;
+  display: block;
+  justify-content: center;
+  padding: 4px;
+  overflow: hidden;
+}
+
+
+.subnav{
+  display: block;
+} */
+
+.navbar{
+  display: flex;
+  gap: 30px;
+  margin-left: 12%;
+}
+.Menu_Ber{
+  padding-top: 10px;
+  /* margin:0 ; */
+
+}
+.navbar a{
+  font-size: 16px;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  border: 3px solid black;
+}
+.subnav .subnavbtn{
+  font-size: 16px;
+  border: none;
+}
+.subnav_content{
+  display: none;
+  position: absolute;
+  background-color: rgb(134, 174, 174);
+  border: 1px solid green;
+  color: white;
+}
+
+.subnav:hover .subnav_content{
+  display: block;
+}
+.navbar,AB{
+  border: none;
+}
+
+/* new building */
+.border{
+ 
+  padding-top:30px;
+  
+}
+.border_content{
+  /* display: flex; */
+  /* align-items: center; */
+  justify-content: space-around;
+  background-color: green;
+  height: 40px;
+  text-align: center;
+
+
+}
+.border_content h2{
+  letter-spacing: 20px;
+  color:white;
+  text-align: center;
+  font-size: 16px;
+}
+.varsity_picture img{
+  width: 100%;
+  height: 500px;
+}
+
+
+/* .Picture_content{
+  padding: 25px;
+  border: 2px solid green;
+  
+} */
+.varsity_picture{
+  position: relative;
+}
+.ADMISSION{
+  position: absolute;
+  top: 0;
+  
+}
+
+.ADMISSION {
+       text-align: center;   
+       width: 300px;
+}
+
+/* .Picture_content, a{
+  color:white;
+} */
+ .ADMISSION a {
+  
+ border: 2px solid pink;
+ height: 40px;
+  /* text-align: center; */
+  align-items: center;
+  color: white;
+ }
+.online a{
+  background-color: rgb(84, 68, 177);
+  
+   justify-content: center;
+   text-decoration: none;
+   padding: 5px;
+  
+  
+}
+.course a{
+  background-color: rgb(120, 177, 34);
+  justify-content: center;
+  text-decoration: none;
+  padding: 5px;
+}
+.tution a{
+  background-color: rgb(35, 116, 68);
+  justify-content: center;
+  text-decoration: none;
+  padding: 5px;
+  
+}
+.STUDENT a{
+  background-color: lightblue;
+  justify-content: center;
+  text-decoration: none;
+  padding: 5px;
+}
+.ROUTINE a{
+  background-color: rgb(9, 246, 9);
+  
+  justify-content: center;
+  text-decoration: none;
+  padding: 5px;
+}
+.EXAM a{
+  background-color: aquamarine;
+  justify-content: center;
+  text-decoration: none;
+  padding: 5px;
+  
+
+}
+
+
+/* New Work */
+
+.fa-people-roof{
+  font-size: 40px;
+  padding-top: 10px;
+  color: #928787;
+}
+
+/* .some_logo{
+  position: relative;
+}
+
+.logo_contant{
+  position: absolute;
+  
+
+} */
+ .fa-handshake a{
+  text-decoration:none;
+ }
+
+.fa-handshake{
+  font-size: 40px;
+  color: #928787;
+  text-decoration: none;
+}
+
+.fa-house{
+  font-size: 40px;
+  color: #928787;
+  text-decoration: none;
+}
+.fa-book-open{
+  font-size: 40px;
+  color:#928787 ;
+  
+}
+.fa-camera-retro{
+  font-size: 40px;
+  color: #928787;
+}
+/* .fa-book-user{
+  font-size: 40px;
+  color: red;
+} */
+
+.new_work{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  /* height: 20px; */
+  padding-top: 10px;
+  /* border: 2px solid red; */
+  background-color: white;
+  
+}
+
+.some_logo{
+  text-align: center;
+  align-items: center;
+  
+}
+.logo_contant{
+  color: #7a6b6b;
+}
+.logo p{
+  text-align: center;
+  margin-left: 5px;
+}
+
+
+/* new work */
+
+.text{
+  /* border: 2px solid red; */
+  padding-left: 12%;
+  /* padding: 10px; */
+  
+  
+}
+.text p{
+  font-size: 16px;
+  width: 60%;
+}
+.text h2{
+  font-size: 16px;
+  font-weight: bold;
+}
+.text{
+  background-color: #eae9e9;
+  position: relative;
+}
+
+.picture{
+  position: absolute;
+  top: -30px;
+  right: 12%;
+  /* height: 180px; */
+  /* width: 200px; */
+}
+.picture img{
+  height: 180px;
+  width: 200px;
+}
+
+/* New work */
+
+.Activ button{
+  display: block;
+  background-color: blue;
+  color: white;
+}
+.notices h2{
+  margin-left: 10%;
+}
+
+.logo a{
+  width: 62px;
+  border: 1px solid white;
+  /* padding: 10px;  */
+  background-color: #ddd;
+  justify-content: center;
+  text-decoration: none;
+  
+  
+}
+.Activities{
+  display: flex;
+  gap: 20px;
+  margin-left: 10%;
+}
+
+
+ /* new step */
+
+  .Message{
+  /* border: 1px solid red; */
+  background-color:#eae9e9 ;
+ }
+
+
+  .heading_5, .paragrap_5 {
+  font-size: 16px;
+  margin-left: 40%;
+  margin-right: 10%;
+  padding: 15px;
+ }
+
+  .Message{
+  position: relative;
+  top: 0;
+ }
+
+ .Message_contant_5{
+  position: absolute;
+  top:-16px ;
+ }
+ .Message_contant_5 img{
+  height: 210px;
+  width: 200px;
+  padding-left: 95%;
+  margin-top: -3px;
+ }   
+
+
+ /* new stopic */
+
+ /* .Undergraduate{
+  display: flex;
+  align-items: center;
+ }
+
+ .homeous{
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+ }
+ .program_contant{
+  display: block;
+ } */
+
+
+
+ .step {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px 0;
+  padding: 20px;
+  /* border: 1px solid #ccc; */
+  /* border-radius: 10px; */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+ }
+
+
+  .header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+  }
+
+  .step_ber{
+      display: flex;
+      margin-left: 11%;
+      margin-right: 09%;
+  }
+ .content a{
+  display: block;
+  text-decoration: none;
+  border: 1px solid white;
+  /* text-align: center; */
+  background-color: #ddd;
+  /* gap: 20px; */
+  padding: 7px;
+ }
+
+ .header{
+  /* border: 1px solid red; */
+  background-color: blue;
+  color: white;
+ }
+.fa-graduation-cap{
+  font-size: 40px;
+}
+.header h1{
+  font-size: 18px;
+}
+.content,.A{
+  background-color: aqua;
+}
+.video_container video{
+  width: 500px;
+  /* margin-left: 20%; */
+}
+
+.video_container{
+  display: flex;
+  justify-content: space-around;
+  margin-right:-2%;
+}
+
+/* new topic */
+
+   .contact{
+      display: flex;
+      justify-content: center;
+      gap: 70px;
+      background-color: rgb(8, 8, 195);
+      color: white;
+   }
+   .social a{
+      /* display: block; */
+      padding: 7px;
+      /* color:brown ; */
+   }
+
+   .fa-facebook{
+         font-size: 30px;
+         color: green;
+   }
+
+   .fa-twitter{
+       font-size: 30px;
+       color: coral;
+   }
+
+   .fa-instagram{
+         font-size: 30px;
+         color: chocolate ;
+   }
+
+
+   .information_content a{
+        display: block;
+        text-decoration: none;
+        color: white;
+   }
+
+   .social_content, a{
+      display: flex;
+   }
+
+   .contact{
+      margin-top: 10%;
+   }
+
+   .information_content a:hover{
+      color: aquamarine;
+   }
+
+   /* new topic */
+
+   .University{
+      text-align: center;
+      background-color: rgb(11, 11, 99);
+      color: white;
+      padding: 7px;
+   }
+
+
+      /* new item */
+
+
+    .card_1{
+      width: 300px;
+      height:220px ;
+      border: 1px solid #ddd;
+      overflow: hidden;
+      position: relative;
     }
-}
+
+    .card_1 img{
+      width: 300px;
+      height: 220px;
+    }
+
+    .content_6{
+      position: absolute;
+      bottom: -170px;
+      text-align: center;
+      color: white;
+    }
+
+    .content_6:hover{
+      top: 0;
+    }
