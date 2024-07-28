@@ -2,23 +2,19 @@
   /* responsiv design */
 
 
-     @media(max-width:600px) {
-      .Infrom_text {
-        flex-direction: column;
-        color: red;
-      }
+  @media (max-width:480px) {
+    .project{
+       width: 100%;
+       flex-direction: column;
+    }
+ 
+    
+  }
 
-     }
-     @media (max-width:600px) {
-     .project h2{
-        width: 30%;
-        height: 100%;
-      }
-      
-     }
-
-
-
+@media (max-width: 768px) {
+  .project, h2 {
+      font-size: 2em;
+    }
 
 
 
