@@ -6,60 +6,76 @@
   <title>Responsive Media Example</title>
   <link rel="stylesheet" href="styles.css">
    <style>
-    
- .block{
-  width: 300px;
-  height: 300px;
-  margin-right: 20px;
-  margin-top: 20px;
-  background-color: orange;
-  float: left;
- }
- @media (max-width:450px) {
-  .block{
-    background-color: red;
-    width: 100%;
-    float: none;
-  }
-  
- }
- @media (min-width:451px) and (max-width:768px) {
-  .block{
-    background-color: azure;
-    float: none;
-    width: 100%;
-  }
-  
- }
 
- @media (min-width:800px) and (max-width:1000px) {
-  .block{
-    background-color: blue;
-    width: 30%;
-    margin-right: 3.33%;
-    
-  }
-  
- }
+    *{
+      box-sizing: border-box;
+    }
+    .main{
+      display: flex;
+      width:50%;
+      gap: 20px;
+    }
 
- @media (min-width:1024px) and (max-width:1280px) {
-  .block{
-    background-color: black;
-    width: 30%;
-    margin-right: 3.33%;
-  }
-  
- }
+    @media screen and (max-width:700px) {
+      .main{
+        /* flex: 50%; */
+        flex-direction: column;
+        width: 100%;
+      }
+    }
+    .menu{
+      flex: 25%;
+      padding: 10px;
+    }
+
+    @media screen and (max-width:992px) {
+      menu{
+        flex: 50%;
+      }
+      
+    }
 
    </style>
+   
      
  </head>
  <body>
-   <div class="block"></div>
-   <div class="block"></div>
+  
+  <div class="main">
+        <div class="menu">
+             <h1>help</h1>
+             <p>Bangladesh is a small county Bangladesh is a small county
+              Bangladesh is a small county
+              Bangladesh is a small county
+              Bangladesh is a small county
+             </p>
+        </div>
+        <div class="menu">
+          <h1>help</h1>
+          <p>Bangladesh is a small county Bangladesh is a small county
+           Bangladesh is a small county
+           Bangladesh is a small county
+           Bangladesh is a small county
+          </p>
+     </div>
+     <div class="menu">
+      <h1>help</h1>
+      <p>Bangladesh is a small county Bangladesh is a small county
+       Bangladesh is a small county
+       Bangladesh is a small county
+       Bangladesh is a small county
+      </p>
+ </div>
+ <div class="menu">
+  <h1>help</h1>
+  <p>Bangladesh is a small county Bangladesh is a small county
+   Bangladesh is a small county
+   Bangladesh is a small county
+   Bangladesh is a small county
+  </p>
+</div>
 
-   <div class="block"></div>
-
+</div>
 
  </body>
 
