@@ -6,7 +6,60 @@
   <title>Responsive Media Example</title>
   <link rel="stylesheet" href="styles.css">
    <style>
+      .main h2{
+            font-size: 35px;
+            color: blueviolet;
+      }
 
+    .main_picture img{
+      width: 400px;
+    }
+
+    @media screen and (max-width:600px) {
+      .main h2{
+            font-size: 16px;
+            width: 100%;
+            text-align: center;
+      }
+      
+    }
+    .active{
+      display: flex;
+      padding-right: 5px;
+      justify-content: space-between;
+    }
+    .active_contant{
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    .active_contant a{
+      text-decoration: none;
+      background-color: red;
+      padding: 5px;
+    }
+    .active p{
+      font-size: 20px;
+    }
+   @media screen and (max-width:600px) {
+      .active {
+            display: block;
+            /* text-align: center; */
+      }
+      
+   }
+   @media screen and (max-width:600px) {
+      .active p,a{
+            font-size: 12px;
+            width: 100%;
+            text-align: center;
+      }
+   }
+   @media screen and (max-width:600px){
+       .main_picture img{
+            width: 100%;
+       }  
+   }
 
    </style>
    
@@ -15,9 +68,32 @@
  <body>
       
        <div class="main">
-        <h2>bangladesh is a capital city</h2>
+        <h2>bangladesh is a capital city bangladesh is a capital city bangladesh is a capital city</h2>
 
-        
+        <div class="main_picture">
+            <img src="https://res.cloudinary.com/dnhpk5q85/image/upload/v1716914477/social%20icons/lvvx1nqo7wwabm9t9wog.png
+            " alt="">
+
+        </div>
+
+       </div>
+
+
+       <div class="active">
+            <p>the very nice of bangladesh the very nice of bangladesh
+                  the very nice of bangladesh
+                  the very nice of bangladesh
+                  the very nice of bangladesh </p>
+                  <div class="active_contant">
+                        <a href="#">home</a>
+                        <a href="#">Cart</a>
+                        <a href="#">big</a>
+
+
+
+
+                  </div>
+
 
        </div>
         
