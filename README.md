@@ -160,3 +160,12 @@ https://res.cloudinary.com/dnhpk5q85/image/upload/v1717503629/social%20icons/pe2
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {...}
+
+
+
+<!-- menu  responsive_web Designe -->
+ @media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown, #dropbtn {
+    display: none;
+  }
+ }

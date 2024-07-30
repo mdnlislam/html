@@ -6,97 +6,88 @@
   <title>Responsive Media Example</title>
   <link rel="stylesheet" href="styles.css">
    <style>
-      .main h2{
-            font-size: 35px;
-            color: blueviolet;
-      }
-
-    .main_picture img{
-      width: 400px;
-    }
-
-    @media screen and (max-width:600px) {
-      .main h2{
-            font-size: 16px;
-            width: 100%;
-            text-align: center;
-      }
-      
-    }
-    .active{
+    .topnav{
       display: flex;
-      padding-right: 5px;
-      justify-content: space-between;
-    }
-    .active_contant{
-      display: flex;
-      align-items: center;
       gap: 20px;
+      background-color: beige;
+      align-items: center;
     }
-    .active_contant a{
+    .topnav a{
       text-decoration: none;
-      background-color: red;
+    }
+    .dropdown_content a{
+      display:block;
+      /* color: white; */
+
+    }
+    .Dropdown{
+      position: relative;
+    }
+    .dropdown_content{
+      position: absolute;
+      display: none;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      padding: 5px;
+      background-color: bisque;
+      
+
+    }
+    .Dropdown:hover .dropdown_content{
+      display: block;
+    }
+    #Home{
+      background-color: rgb(148, 212, 52);
+      color: white;
       padding: 5px;
     }
-    .active p{
-      font-size: 20px;
-    }
-   @media screen and (max-width:600px) {
-      .active {
-            display: block;
-            /* text-align: center; */
-      }
-      
-   }
-   @media screen and (max-width:600px) {
-      .active p,a{
-            font-size: 12px;
-            width: 100%;
-            text-align: center;
-      }
-   }
-   @media screen and (max-width:600px){
-       .main_picture img{
-            width: 100%;
-       }  
-   }
 
+    @media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown, #dropbtn {
+    display: none;
+  }
+  .topnav a {
+    float: right;
+    display: block;
+  }
+  .text{
+    text-align: center;
+  }
+}
+
+    
    </style>
    
      
  </head>
  <body>
       
-       <div class="main">
-        <h2>bangladesh is a capital city bangladesh is a capital city bangladesh is a capital city</h2>
+   <div class="topnav">
+    <a id="Home" href="#">Home</a>
+    <a href="#">New</a>
+    <a href="#">Contact</a>
+    <div class="Dropdown">
+      <a id="dropbtn" href="#">Dropdown</a>
+      <div class="dropdown_content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
 
-        <div class="main_picture">
-            <img src="https://res.cloudinary.com/dnhpk5q85/image/upload/v1716914477/social%20icons/lvvx1nqo7wwabm9t9wog.png
-            " alt="">
+      </div>
 
-        </div>
+    </div>
+    <a href="#">About</a>
+   </div>
 
-       </div>
+  <div class="text">
 
+    <h2>Responsive topnav width
+      Dropdown
+    </h2>
 
-       <div class="active">
-            <p>the very nice of bangladesh the very nice of bangladesh
-                  the very nice of bangladesh
-                  the very nice of bangladesh
-                  the very nice of bangladesh </p>
-                  <div class="active_contant">
-                        <a href="#">home</a>
-                        <a href="#">Cart</a>
-                        <a href="#">big</a>
+    <p>Resize the browser window to see how it work.</p>
+    <p>Hover over the windown to see how it work dropdown menu.</p>
 
-
-
-
-                  </div>
-
-
-       </div>
-        
+  </div>
 
 
  </body>
