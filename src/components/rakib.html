@@ -6,53 +6,42 @@
   <title>Responsive Media Example</title>
   <link rel="stylesheet" href="styles.css">
    <style>
-    .topnav{
+    *{
+      box-sizing: border-box;
+    }
+    .column{
+      width: 25%;
+      padding: 20px;
+      /* display: flex; */
+      float: left;
+      /* display: inline-block; */
+    }
+    /* .main_row{
+      display: inline-block;
+    } */
+    /* .row{
       display: flex;
-      gap: 20px;
-      background-color: beige;
-      align-items: center;
-    }
-    .topnav a{
-      text-decoration: none;
-    }
-    .dropdown_content a{
-      display:block;
-      /* color: white; */
 
-    }
-    .Dropdown{
-      position: relative;
-    }
-    .dropdown_content{
-      position: absolute;
-      display: none;
-      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-      padding: 5px;
-      background-color: bisque;
+    } */
+    /* .row::after{
+      display: table;
+    } */
+
+    @media screen and (max-width:992px) {
+      .column{
+        width: 50%;
+      }
       
-
-    }
-    .Dropdown:hover .dropdown_content{
-      display: block;
-    }
-    #Home{
-      background-color: rgb(148, 212, 52);
-      color: white;
-      padding: 5px;
     }
 
-    @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child), .dropdown, #dropbtn {
-    display: none;
-  }
-  .topnav a {
-    float: right;
-    display: block;
-  }
-  .text{
-    text-align: center;
-  }
-}
+     @media screen and (max-width:600px) {
+      .column{
+        width: 100%;
+        text-align: center;
+      } 
+      
+    }
+
 
     
    </style>
@@ -60,35 +49,48 @@
      
  </head>
  <body>
-      
-   <div class="topnav">
-    <a id="Home" href="#">Home</a>
-    <a href="#">New</a>
-    <a href="#">Contact</a>
-    <div class="Dropdown">
-      <a id="dropbtn" href="#">Dropdown</a>
-      <div class="dropdown_content">
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
-
-      </div>
+    <div class="Responsive">
+      <h2>Responsive Four Colim Layout</h2>
+      <p>
+        <strong>Resize the browser window to 
+          see the responsive effect.
+        </strong>
+        On screens that are 992px wide or less,the colume
+        the best of louck of bangladesh so very beautyfull.
+      </p>
 
     </div>
-    <a href="#">About</a>
-   </div>
 
-  <div class="text">
+       <div class="main_row">
+    <div class="row">
 
-    <h2>Responsive topnav width
-      Dropdown
-    </h2>
+     <div class="column" style="background-color: bisque;">
+      <h2>Column-1</h2>
+      <p>Some text..</p>
 
-    <p>Resize the browser window to see how it work.</p>
-    <p>Hover over the windown to see how it work dropdown menu.</p>
+     </div>
 
+     <div class="column" style="background-color: rgb(198, 157, 106);">
+      <h2>Column-1</h2>
+      <p>Some text..</p>
+
+     </div>
+
+     <div class="column" style="background-color: rgb(116, 106, 94);">
+      <h2>Column-1</h2>
+      <p>Some text..</p>
+
+     </div>
+
+     <div class="column" style="background-color: rgb(179, 164, 145);">
+      <h2>Column-1</h2>
+      <p>Some text..</p>
+
+     </div>
+
+
+    </div>
   </div>
-
 
  </body>
 
