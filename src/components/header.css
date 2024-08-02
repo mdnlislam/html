@@ -1,0 +1,104 @@
+.Mobail_screen{
+    width: 600px;
+    border: 2px solid red;
+    height: 100%;
+    margin-top: 20px;
+}
+
+.header, p{
+    text-align: center;
+}
+
+.header_content{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.header_content a{
+    text-decoration: none;
+}
+
+.header_2 img{
+     width: 150px;
+     margin-left: 5px;
+}
+.logo_bere{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    
+}
+
+
+.text_2{
+    /* border: 2px solid green; */
+        width: 200px;
+        border-radius: 10px;
+        margin-left: 5px;
+        padding:2px;
+}
+
+.text_2 a{
+    text-decoration: none;
+    justify-content: center;
+    background-color: green;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+/* new item */
+
+.ber a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.ber{
+    position: relative;
+}
+
+.ber_content{
+    position: absolute;
+    display: none;
+}
+
+.ber:hover .ber_content {
+    display: block;
+}
+
+  .D{
+    border: 2px solid greenyellow;
+    background-color: blue;
+    /* color: white; */
+    width: 600px;
+
+  }
+  .D a{
+    color: white;
+    /* justify-content: center; */
+    margin-left: 5px;
+    justify-content: left;
+  }
+
+  .About{
+    position: relative;
+  }
+
+  .About_tv{
+    position: absolute;
+    display: none;
+  }
+
+ .About:hover .About_tv {
+    display: block;
+ }
+
+
+/* new item */
