@@ -48,84 +48,48 @@ function Header() {
 
      {/* new item */}
           
-          <div className='ber'>
+          
 
-            <button><a href="#"><i class="fa-solid fa-bars"></i></a></button>
+          <div className='Dropdown'>
 
-            <div className='ber_content'>
-             <div className='D'>
-             <a href="#">Home</a>
-             </div>
-             <div className='About'>
-             <a href="#">About Us</a>
-             <div className='About_tv'>
-                  <div>
-                  <a href="#"> -Humble Beginning</a>
-                  </div>
-                  <div>
-                  <a href="#"> -Messeages</a>
-                  </div>
-                 <div>
-                 <a href="#"> Certification</a>
-                 </div>
-                  <div>
-                  <a href="#"> -Board of Trustees</a>
-                  </div>
-                  <div>
-                  <a href="#"> -mission and Vision</a>
-                  </div>
-                  <div>
-                  <a href="#"> -Special Features</a>
-                  </div>
-                  <div>
-                  <a href="#"> -Graduate Profile</a>
-                  </div>
-                  <div>
-                  <a href="#"> -Gallery</a>
-                  </div>
-                  
-             </div>
-             </div>
-             <div className='D'>
-             <a href="#"> Academics</a>
-             </div>
-             <div className='D'>
-             <a href="#"> Admission</a>
-             </div>
-             <div className='D'>
-             <a href="#"> Faculties</a>
-             </div>
-             <div className='D'>
-             <a href="#"> Administration</a>
-             </div>
-             <div className='D'>
-             <a href="#">Student Corner</a>
-             </div>
-             <div className='D'>
-             <a href="#"> Contact Us</a>
-             </div>
-             <div className='D'>
-             <a href="#"> Research & Journals</a>
-             </div>
-            </div>
+           <div className='bers'>
+           <label className='dropbtn' htmlFor="dropdown-toggle"> <i class="fa-solid fa-bars"></i></label>
+           </div>
+           <input type="checkbox" id='dropdown-toggle' />
+           <div className='dropdown_content'>
 
-
-
-           <div>
-            <p>hdfd jdwhwasy </p>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Academics</a>
+            <a href="#">Admission</a>
+            <a href="#">Faculties</a>
+            <a href="#">Administration</a>
+            <a href="#">Student Corner</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Research & Journals</a>
+           
            </div>
 
 
 
-          
+        
+
+
+
+
+
+
           </div>
 
 
+          
+          
 
 
 
 
 
+         
 
 
 

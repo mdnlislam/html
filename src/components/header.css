@@ -56,49 +56,59 @@
 
 /* new item */
 
-.ber a{
+
+
+  .dropbtn{
+    font-size: 35px;
+    /* justify-content: right; */
+    margin-left: 500px;
+    padding-bottom: ;
+   
+  }
+
+  .fa-bars{
+    font-size: 30px;
+    justify-content: right;
+  }
+  .bers{
+    justify-content: right;
+    display: block;
+  }
+
+  .Dropdown{
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    
+  }
+
+  .Dropdown input[type="checkbox"] {
+    display: none;
+  }
+  .dropdown_content{
+    position: absolute;
+    display: none;
+
+    
+  }
+
+  .dropdown_content a{
     text-decoration: none;
     font-size: 20px;
-}
-.ber{
-    position: relative;
-}
-
-.ber_content{
-    position: absolute;
-    display: none;
-}
-
-.ber:hover .ber_content {
-    display: block;
-}
-
-  .D{
-    border: 2px solid greenyellow;
-    background-color: blue;
-    /* color: white; */
+    border: 2px solid white;
     width: 600px;
-
-  }
-  .D a{
+    background-color: green;
     color: white;
-    /* justify-content: center; */
-    margin-left: 5px;
-    justify-content: left;
-  }
-
-  .About{
-    position: relative;
-  }
-
-  .About_tv{
-    position: absolute;
-    display: none;
-  }
-
- .About:hover .About_tv {
     display: block;
- }
+    /* padding: 5px; */
+  }
 
+  .dropdown_content a:hover{
+    background-color: darkgrey;
+  }
+
+  .Dropdown input[type="checkbox"]:checked ~ .dropdown_content{
+    display: block;
+  }
 
 /* new item */
