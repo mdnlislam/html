@@ -101,33 +101,84 @@ function Header() {
    <a href="#">1ST SEMESTER CLASS ROUTINE</a>
    <a href="#"> EXAM SCHEDULE</a>
 
-
+    
 
   </div>
+  <div className='icons'>
+      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-youtube"></i></a>
+
+     </div>
    
-
-
-
-
-
-
-
-
-
-
-
-
 {/* new topic */}
 
 
 
 
+       {/* new work */}
+
+       <div className='varsity'>
+       <img src="public/img/varsity.jpg" alt="" />
+       </div>
+
+
+        {/* new work */}
 
 
 
+         {/* new topic */}
+
+
+         <div className="new_work">
+   <div className="some_logo">
+     <a href="#"><i class="fa-solid fa-people-roof"></i></a>
+    <div className="logo_contant">
+     <p>Alumni</p>
+    </div>
+
+   </div>
+
+
+   <div className="some_logo">
+     <a href="#"><i class="fa-solid fa-handshake"></i></a>
+    <div className="logo_contant">
+     <p>Students Affairs</p>
+    </div>
+
+   </div>
+
+
+   <div className="some_logo">
+     <a href="#"><i class="fa-solid fa-house"></i></a>
+    <div className="logo_contant">
+     <p>Organogram</p>
+    </div>
+
+   </div>
+
+   <div className="some_logo">
+     <a href="#"><i class="fa-solid fa-book-open"></i></a>
+    <div className="logo_contant">
+     <p>Library</p>
+    </div>
+
+   </div>
+
+   <div className="some_logo">
+     <a href="#"><i class="fa-solid fa-camera-retro"></i></a>
+    <div className="logo_contant">
+     <p>Gallery</p>
+    </div>
+
+   </div>
 
 
 
+   </div>
+
+
+          {/* new topic */}
+      
 
 
 

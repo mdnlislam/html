@@ -88,7 +88,7 @@
   }
   .dropdown_content{
     /* position: absolute; */
-    height: 0 !important;
+    display: none;
 
     
   }
@@ -110,7 +110,7 @@
 
   .Dropdown input[type="checkbox"]:checked ~ .dropdown_content{
     display: block;
-    height: 100% !important;
+    
   }
 
 
@@ -151,11 +151,59 @@
 
 
 
+.icons{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  background-color: rgb(181, 181, 211);
+  align-items: center;
 
-
-
-
-
+}
+.icons a{
+  text-decoration: none;
+}
+.fa-facebook{
+   font-size: 30px;
+   /* color: green; */
+}
+.fa-youtube{
+ font-size: 30px;
+ color: red;
+}
 
 
  /* new topic */
+
+ /* new work */
+
+.varsity img{
+  height: 200px;
+  width: 100%;
+}
+/* new work */
+.new_work{
+  display:block;
+}
+
+.fa-people-roof{
+   font-size: 20px;
+   text-align: center;
+}
+.fa-handshake{
+ font-size: 20px;
+}
+.fa-house{
+   font-size: 20px;
+}
+.fa-book-open{
+    font-size: 20px;
+}
+.fa-camera-retro{
+    font-size: 20px;
+}
+
+.man{
+  justify-content: center;
+  text-align: center;
+}
+ /* new work */
