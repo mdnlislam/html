@@ -70,15 +70,6 @@ function Header() {
            
            </div>
 
-
-
-        
-
-
-
-
-
-
           </div>
 
 
@@ -87,20 +78,46 @@ function Header() {
 
 
 
+     <div className='marquee'>
+     <marquee  behavior="scoller" direction="left and right">
+    <h2>EUROPEAN UNIVERSITY OF BANGLADESH </h2>
+   
 
-
-         
-
-
-
-
-
+    </marquee>
+     </div>
 
       {/* new item */}
 
 
 
+{/* new topic */}
 
+  <div className='FEES'>
+
+   <a href="#">ONLINE ADMISSION</a>
+   <a href="#"> COURSE OF OFFER</a>
+   <a href="#"> COURSES & TUTITION FEES</a>
+   <a href="#"> STUDENT GUIDELINE FOR FRESHERS</a>
+   <a href="#">1ST SEMESTER CLASS ROUTINE</a>
+   <a href="#"> EXAM SCHEDULE</a>
+
+
+
+  </div>
+   
+
+
+
+
+
+
+
+
+
+
+
+
+{/* new topic */}
 
 
 

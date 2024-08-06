@@ -62,7 +62,7 @@
     font-size: 35px;
     /* justify-content: right; */
     margin-left: 500px;
-    padding-bottom: ;
+    
    
   }
 
@@ -76,9 +76,10 @@
   }
 
   .Dropdown{
-    position: relative;
+    /* position:relative; */
     width: 100%;
-    display: inline-block;
+    /* display: inline-block; */
+      display: inline-block;
     
   }
 
@@ -86,8 +87,8 @@
     display: none;
   }
   .dropdown_content{
-    position: absolute;
-    display: none;
+    /* position: absolute; */
+    height: 0 !important;
 
     
   }
@@ -109,6 +110,52 @@
 
   .Dropdown input[type="checkbox"]:checked ~ .dropdown_content{
     display: block;
+    height: 100% !important;
   }
 
+
+ .marquee{
+  border: 2px solid pink;
+  background-color: green;
+  height: 35px;
+  
+  
+ }
+ .marquee h2{
+  font-size: 16px;
+  color: white;
+  word-spacing: 10px;
+  letter-spacing: 10px;
+ }
+
+
 /* new item */
+
+
+ /* new topic */
+
+    
+.FEES a{
+  text-decoration: none;
+  
+  
+}
+.FEES a{
+  border: 2px solid pink;
+  background-color: blue;
+  color: white;
+  padding: 2px;
+  font-size: 10px;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+ /* new topic */
