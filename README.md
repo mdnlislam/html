@@ -169,3 +169,16 @@ https://res.cloudinary.com/dnhpk5q85/image/upload/v1717503629/social%20icons/pe2
     display: none;
   }
  }
+
+
+
+
+<a href="#"><i class="fa-solid fa-people-roof"></i></a>
+
+<a href="#"><i class="fa-solid fa-handshake"></i></a>
+
+ <a href="#"><i class="fa-solid fa-house"></i></a>
+
+  <a href="#"><i class="fa-solid fa-book-open"></i></a>
+
+  <a href="#"><i class="fa-solid fa-camera-retro"></i></a>    

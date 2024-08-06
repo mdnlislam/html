@@ -181,29 +181,16 @@
   width: 100%;
 }
 /* new work */
-.new_work{
-  display:block;
-}
+ 
+   .book_con {
+    /* border: 2px solid green; */
+    display: inline-block;
+    /* justify-content: center; */
+    margin-left: 45%;
+    
+   }
+   
 
-.fa-people-roof{
-   font-size: 20px;
-   text-align: center;
-}
-.fa-handshake{
- font-size: 20px;
-}
-.fa-house{
-   font-size: 20px;
-}
-.fa-book-open{
-    font-size: 20px;
-}
-.fa-camera-retro{
-    font-size: 20px;
-}
 
-.man{
-  justify-content: center;
-  text-align: center;
-}
+   
  /* new work */

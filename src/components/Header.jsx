@@ -124,57 +124,53 @@ function Header() {
 
         {/* new work */}
 
+         <div className='Book'>
+
+           <div className='book_con'>
+           <a href="#"><i class="fa-solid fa-people-roof"></i></a>
+           <h3>Alumni</h3>
+           </div>
+
+           <div className='book_con'>
+           <a href="#"><i class="fa-solid fa-handshake"></i></a>
+           <h3>Students Affairs</h3>
+           </div>
+
+           <div className='book_con'>
+           <a href="#"><i class="fa-solid fa-house"></i></a>
+           <h3>Organogram</h3>
+           </div>
+
+           <div className='book_con'>
+           <a href="#"><i class="fa-solid fa-book-open"></i></a>
+           <h3>Library</h3>
+           </div>
+
+           <div className='book_con'>
+           <a href="#"><i class="fa-solid fa-camera-retro"></i></a>  
+           <h3>Gallery</h3>
+           </div>
+
+
+
+
+
+
+
+
+         </div>
+
+
 
 
          {/* new topic */}
 
 
-         <div className="new_work">
-   <div className="some_logo">
-     <a href="#"><i class="fa-solid fa-people-roof"></i></a>
-    <div className="logo_contant">
-     <p>Alumni</p>
-    </div>
-
-   </div>
-
-
-   <div className="some_logo">
-     <a href="#"><i class="fa-solid fa-handshake"></i></a>
-    <div className="logo_contant">
-     <p>Students Affairs</p>
-    </div>
-
-   </div>
-
-
-   <div className="some_logo">
-     <a href="#"><i class="fa-solid fa-house"></i></a>
-    <div className="logo_contant">
-     <p>Organogram</p>
-    </div>
-
-   </div>
-
-   <div className="some_logo">
-     <a href="#"><i class="fa-solid fa-book-open"></i></a>
-    <div className="logo_contant">
-     <p>Library</p>
-    </div>
-
-   </div>
-
-   <div className="some_logo">
-     <a href="#"><i class="fa-solid fa-camera-retro"></i></a>
-    <div className="logo_contant">
-     <p>Gallery</p>
-    </div>
-
-   </div>
+        
 
 
 
-   </div>
+   
 
 
           {/* new topic */}
