@@ -151,6 +151,29 @@
   border: none;
 }
 
+ /* Responsive heading */
+
+
+  /* @media screen and (max-width:600px) {
+  .project h2{
+    font-size: 10px;
+  }
+
+    
+  } */
+
+
+
+
+
+
+
+
+  /* Responsive heading */
+
+
+
+
 /* new building */
 .border{
  
@@ -607,3 +630,41 @@
         text-align: center;
       }
   }
+
+
+
+  @media screen and (max-width:600px) {
+    .responsive{
+      width: 30px;
+    
+      
+    }
+
+    .project h2{
+      font-size: 8px;
+      
+    }
+
+    .Infrom_text {
+      display:block;
+      
+      
+      
+    }
+    .Infrom_text a{
+      border: 2px solid red;
+      border-radius: 20px;
+      font-size:10px ;
+      
+    }
+    .heading{
+      display: none;
+    }
+
+    .Infrom_text li{
+      width: 300px;
+    }
+
+  
+      
+    }
