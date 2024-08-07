@@ -9,7 +9,9 @@ function Header() {
 
 
          <div header>
-          <p>Admission Office: 01992887317,01968774933, 01968774931,01867346283(Director),01867328936</p>
+         <div className='office'>
+         <p>Admission Office: 01992887317,01968774933, 01968774931,01867346283(Director),01867328936</p>
+         </div>
 
            <div className='header_content'>
             <a href="#">Jobs at EUB</a>
@@ -150,20 +152,230 @@ function Header() {
            <a href="#"><i class="fa-solid fa-camera-retro"></i></a>  
            <h3>Gallery</h3>
            </div>
-
-
-
-
-
-
-
-
          </div>
 
 
 
 
          {/* new topic */}
+
+
+         {/* new work */}
+
+            <div className='chairman'>
+
+            <h5>Message from Chaiman</h5>
+
+<p>
+ The European University of Bangladesh has started its journey tomards achieving excellence in higher education in this country in 
+ its consideration, the fount of progress in Europ has been higher education centering around science and technology in search of 
+ excellence the European , the European University of Bangladesh will, go at length , to emulate the ways traversed by universities and institution 
+ of higher  educatin and learning in Europ.
+</p>
+
+<h5>Muhiuddin Khan Alamgir</h5>
+<p>
+ Ph.D.M.A <br /> University of Dhaka <br />Boston University 
+
+</p>
+<h5>Chairman</h5>
+<p>European University of Bangladesh</p>
+
+
+<button>More</button>
+
+<div className="jpg">
+<img src="public/img/Rakib.jpg" alt="" />
+
+</div>
+
+            </div>
+
+
+         {/* new work */}
+
+
+
+
+         {/* Activities and Notices */}
+
+
+            <div className='activ_7'>
+
+              <h2>Activities and Notices</h2>
+
+             <div className='active_8'>
+
+             <button className='button'>
+             <p>6 <br />08,2024</p>
+             
+              </button>
+
+              <div className='active_8_C'>
+                <h5>Urgent Notice <br />August 6th,2024</h5>
+                
+              </div>
+
+             
+
+             </div>
+             <div className='number'>
+             <a href="#"><i class="fa-sharp fa-solid fa-pen-fancy"></i></a>
+              </div>
+
+
+
+              <div className='active_8'>
+
+<button className='button'>
+<p>6 <br />08,2024</p>
+
+ </button>
+
+ <div className='active_8_C'>
+   <h5>Urgent Notice <br />August 6th,2024</h5>
+   
+ </div>
+
+
+
+</div>
+<div className='number'>
+<a href="#"><i class="fa-sharp fa-solid fa-pen-fancy"></i></a>
+ </div>
+
+
+                       
+                     
+              <div className='active_8'>
+
+<button className='button'>
+<p>6 <br />08,2024</p>
+
+ </button>
+
+ <div className='active_8_C'>
+   <h5>Urgent Notice <br />August 6th,2024</h5>
+   
+ </div>
+
+
+
+</div>
+<div className='number'>
+<a href="#"><i class="fa-sharp fa-solid fa-pen-fancy"></i></a>
+ </div>
+
+
+
+
+
+ 
+ <div className='active_8'>
+
+<button className='button'>
+<p>6 <br />08,2024</p>
+
+ </button>
+
+ <div className='active_8_C'>
+   <h5>Urgent Notice <br />August 6th,2024</h5>
+   
+ </div>
+
+
+
+</div>
+<div className='number'>
+<a href="#"><i class="fa-sharp fa-solid fa-pen-fancy"></i></a>
+ </div>
+
+
+
+
+ 
+ <div className='active_8'>
+
+<button className='button'>
+<p>6 <br />08,2024</p>
+
+ </button>
+
+ <div className='active_8_C'>
+   <h5>Urgent Notice <br />August 6th,2024</h5>
+   
+ </div>
+
+
+
+</div>
+<div className='number'>
+<a href="#"><i class="fa-sharp fa-solid fa-pen-fancy"></i></a>
+ </div>
+
+
+
+
+ 
+ <div className='active_8'>
+
+<button className='button'>
+<p>6 <br />08,2024</p>
+
+ </button>
+
+ <div className='active_8_C'>
+   <h5>Urgent Notice <br />August 6th,2024</h5>
+   
+ </div>
+
+
+
+</div>
+<div className='number'>
+<a href="#"><i class="fa-sharp fa-solid fa-pen-fancy"></i></a>
+ </div>
+
+
+            </div>
+
+
+
+          {/* Activities and Notices */}
+
+
+
+
+          {/* message from vice chairman */}
+
+
+              <div className='Vice'>
+
+
+                <div className='Vice_c'>
+               <img src="https://res.cloudinary.com/dnhpk5q85/image/upload/v1716914477/social%20icons/lvvx1nqo7wwabm9t9wog.png" alt="" />
+
+                </div>
+
+                <div className='vice_text'>
+                  <h2>message from Vice Chairman</h2>
+                  <p>It is my great pleasure to offer a message of goodwill to potential students, guardians, educationists and other members of the society on behalf of the European University of Bangladesh (EUB). We shall be more than happy to welcome you at our campus to exchange and share your views.
+    The determinants of development have been changing from manufacturing to services and from capital resources to knowledge resources. <button>More</button></p>
+
+  
+                </div>
+
+
+
+
+              </div>
+
+
+
+
+
+           {/* message from vice chairman */}
+
 
 
         
@@ -173,7 +385,7 @@ function Header() {
    
 
 
-          {/* new topic */}
+        
       
 
 
