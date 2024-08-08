@@ -607,64 +607,63 @@
 
 
 
+   /* Responsive Design */
 
-    @media screen and (max-width: 1000px) {
-      .project h2   {
-          font-size: 16px;
-          /* width: 100%; */
-          text-align: center;
+    @media screen and (max-width:600px) {
+      .project h2{
+        font-size: 12px;
+        text-align: center;
+      
+        
       }
-
       .project{
         display: block;
-      
+        
+        
       }
-
-      .logo_card, li, a{
-        text-align: center;
+      .logo_card  {
         justify-content: center;
       }
 
-      .logo_area{
-        display: block;
-        text-align: center;
-      }
-  }
+
+
+      /* logo */
+
+        .logo_area img{
+          margin-left: -15px;
+        }
+
+        .logo_area{
+          display: block;
+        }
+        .Infrom_text{
+          display: block;
+          width: 200px;
+          
+        }
+        .Infrom_text a{
+          justify-content: center;
+        }
+        .heading{
+          display: none;
+        }
 
 
 
-  @media screen and (max-width:600px) {
-    .responsive{
-      width: 30px;
-    
+
+       /* logo */
+
+
+
+
+
+
+
       
     }
 
-    .project h2{
-      font-size: 8px;
-      
-    }
 
-    .Infrom_text {
-      display:block;
-      
-      
-      
-    }
-    .Infrom_text a{
-      border: 2px solid red;
-      border-radius: 20px;
-      font-size:10px ;
-      
-    }
-    .heading{
-      display: none;
-    }
+   /* Responsive Design */
 
-    .Infrom_text li{
-      width: 300px;
-    }
 
   
-      
-    }
