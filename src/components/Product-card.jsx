@@ -42,7 +42,8 @@ function ProductCard() {
 
       </div>
 
-
+         <div className="ber">
+          <a href="#"><i class="fa-solid fa-bars"></i></a>
       <div className="Menu_Ber">
 
         <div className="navbar">
@@ -157,6 +158,8 @@ function ProductCard() {
         </div>
       </div>
 
+     
+      </div>
 
    {/* new building */}
 

@@ -604,14 +604,16 @@
       top: 0;
     }
     
-
+       .ber{
+        display: none;
+       }
 
 
    /* Responsive Design */
 
     @media screen and (max-width:600px) {
       .project h2{
-        font-size: 12px;
+        font-size: 8px;
         text-align: center;
       
         
@@ -650,13 +652,155 @@
 
 
 
-
        /* logo */
 
+        /* new  */
+
+          .navbar{
+            display: block;
+          }
+          
+          .ber:hover .Menu_Ber{
+            display: block;
+            
+
+          }
+
+          
+          
+          .ber a{
+            margin-left: 10%;
+            text-decoration: none;
+          }
+          .ber{
+            display: block;
+          }
+            
+          
+         .Menu_Ber{
+          display: none;
+         }
+        
+        /* new  */
+
+
+          /* topic */
+
+           .varsity_picture{
+            position: static;
+           }
+
+         .ADMISSION{
+          position: static;
+         }
+
+         .varsity_picture img{
+          width: 330px;
+         }
+
+         
+            /* topic */
+
+          /* new */
+
+           .new_work{
+            display: block;
+           }
+
+            .some_logo{
+              /* border: 2px solid red; */
+              width: 90px;
+              margin-left: 20%;
+            }
+
+
+            /* new */
+
+
+            /* topic */
+           .text{
+            position: static;
+           }
+
+            .picture{
+              position: static;
+            }
+
+            /* topic */
 
 
 
+           /* new */
 
+             .Activities{
+              display: block;
+             }
+
+
+             /* new */
+
+           /* topic */
+
+          .Message{
+            position: static;
+            margin-left: -50%;
+          }
+          .Message_contant_5{
+            position: static;
+          }
+          .Message_contant_5 img{
+            margin-left: -50%;
+          }
+
+            /* topic */
+
+
+           /* new */
+
+          .step_ber{
+            display: block;
+          }
+          .content{
+            width: 300px;
+          }
+       
+           .header{
+            width: 300px;
+           }
+
+           /* new */
+
+
+
+           /* topic */
+
+            .video_container{
+              display: block;
+            }
+
+            .video_container video{
+              width: 300px;
+              margin-left: 15%;
+            }
+
+            .container_picture img{
+              margin-left: 15%;
+            }
+            /* topic */
+
+           /* new */
+              .contact{
+                display: block;
+                width: 300px;
+                margin-left: 15%;
+              }
+
+               .University{
+                width: 300px;
+                margin-left: 15%;
+               }
+
+            /* new */
 
 
       
