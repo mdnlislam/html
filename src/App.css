@@ -613,7 +613,7 @@
 
     @media screen and (max-width:600px) {
       .project h2{
-        font-size: 8px;
+        font-size: 16px;
         text-align: center;
       
         
@@ -656,15 +656,15 @@
 
         /* new  */
 
-          .navbar{
+           .navbar{
             display: block;
           }
           
-          .ber:hover .Menu_Ber{
+           .ber:hover .Menu_Ber{
             display: block;
             
 
-          }
+          } 
 
           
           
@@ -692,10 +692,14 @@
 
          .ADMISSION{
           position: static;
+          width: 100%;
+         }
+         .ADMISSION a{
+          font-size: 20px;
          }
 
          .varsity_picture img{
-          width: 330px;
+          width: 100%;
          }
 
          
@@ -705,14 +709,42 @@
 
            .new_work{
             display: block;
+            
+            
            }
 
             .some_logo{
               /* border: 2px solid red; */
-              width: 90px;
-              margin-left: 20%;
+              width: 200px;
+              margin-left: 30%;
+              
+            }
+            .some_logo a{
+              justify-content: center;
+              font-size: 100px;
             }
 
+            .fa-people-roof{
+              font-size: 100px;
+            }
+
+            .fa-handshake{
+              font-size: 100px;
+            }
+           
+            .fa-house{
+              font-size: 100px;
+
+            }
+            .fa-book-open {
+              font-size: 100px;
+            }
+            .fa-camera-retro{
+              font-size: 100px;
+            }
+            .logo_contant p{
+              font-size: 25px;
+            }
 
             /* new */
 
@@ -720,6 +752,13 @@
             /* topic */
            .text{
             position: static;
+            
+           }
+           .text p{
+            font-size: 25px;
+           }
+           .text h2{
+            font-size: 25px;
            }
 
             .picture{
@@ -740,7 +779,7 @@
              /* new */
 
            /* topic */
-
+           
           .Message{
             position: static;
             margin-left: -50%;
@@ -751,6 +790,9 @@
           .Message_contant_5 img{
             margin-left: -50%;
           }
+          .heading_5{
+            font-size: 25px;
+          } 
 
             /* topic */
 
@@ -759,13 +801,16 @@
 
           .step_ber{
             display: block;
+            
           }
+
+         
           .content{
-            width: 300px;
+            width: 100%;
           }
        
            .header{
-            width: 300px;
+            width: 100%;
            }
 
            /* new */
@@ -791,13 +836,20 @@
            /* new */
               .contact{
                 display: block;
-                width: 300px;
-                margin-left: 15%;
+                width: 100%;
+                
+              }
+
+              .information_content p{
+                font-size: 25px;
+              }
+              .information h5{
+                font-size: 25px;
               }
 
                .University{
-                width: 300px;
-                margin-left: 15%;
+                width: 100%;
+                
                }
 
             /* new */

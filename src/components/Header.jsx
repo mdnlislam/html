@@ -5,7 +5,7 @@ function Header() {
   return (
     <>
       
-    <div className='Mobail_screen'>
+    {/* <div className='Mobail_screen'>
 
 
          <div header>
@@ -45,14 +45,14 @@ function Header() {
           <a href="#">Apply for Certificate</a>
           </div>
          </div>
-         </div>
+         </div> */}
 
 
      {/* new item */}
           
           
 
-          <div className='Dropdown'>
+          {/* <div className='Dropdown'>
 
            <div className='bers'>
            <label className='dropbtn' htmlFor="dropdown-toggle"> <i class="fa-solid fa-bars"></i></label>
@@ -72,7 +72,7 @@ function Header() {
            
            </div>
 
-          </div>
+          </div> */}
 
 
           
@@ -80,13 +80,13 @@ function Header() {
 
 
 
-     <div className='marquee'>
+     {/* <div className='marquee'>
      <marquee  behavior="scoller" direction="left and right">
     <h2>EUROPEAN UNIVERSITY OF BANGLADESH </h2>
    
 
     </marquee>
-     </div>
+     </div> */}
 
       {/* new item */}
 
@@ -94,24 +94,24 @@ function Header() {
 
 {/* new topic */}
 
-  <div className='FEES'>
+  {/* <div className='FEES'>
 
    <a href="#">ONLINE ADMISSION</a>
    <a href="#"> COURSE OF OFFER</a>
    <a href="#"> COURSES & TUTITION FEES</a>
    <a href="#"> STUDENT GUIDELINE FOR FRESHERS</a>
    <a href="#">1ST SEMESTER CLASS ROUTINE</a>
-   <a href="#"> EXAM SCHEDULE</a>
+   <a href="#"> EXAM SCHEDULE</a> */}
 
     
 
-  </div>
+  {/* </div>
   <div className='icons'>
       <a href="#"><i class="fa-brands fa-facebook"></i></a>
       <a href="#"><i class="fa-brands fa-youtube"></i></a>
 
      </div>
-   
+    */}
 {/* new topic */}
 
 
@@ -119,14 +119,14 @@ function Header() {
 
        {/* new work */}
 
-       <div className='varsity'>
+       {/* <div className='varsity'>
        <img src="public/img/varsity.jpg" alt="" />
-       </div>
+       </div> */}
 
 
         {/* new work */}
 
-         <div className='Book'>
+         {/* <div className='Book'>
 
            <div className='book_con'>
            <a href="#"><i class="fa-solid fa-people-roof"></i></a>
@@ -143,8 +143,8 @@ function Header() {
            <h3>Organogram</h3>
            </div>
 
-           <div className='book_con'>
-           <a href="#"><i class="fa-solid fa-book-open"></i></a>
+           <div className='book_con'> */}
+           {/* <a href="#"><i class="fa-solid fa-book-open"></i></a>
            <h3>Library</h3>
            </div>
 
@@ -153,7 +153,7 @@ function Header() {
            <h3>Gallery</h3>
            </div>
          </div>
-
+ */}
 
 
 
@@ -164,9 +164,9 @@ function Header() {
 
             <div className='chairman'>
 
-            <h5>Message from Chaiman</h5>
+            {/* <h5>Message from Chaiman</h5> */}
 
-<p>
+{/* <p>
  The European University of Bangladesh has started its journey tomards achieving excellence in higher education in this country in 
  its consideration, the fount of progress in Europ has been higher education centering around science and technology in search of 
  excellence the European , the European University of Bangladesh will, go at length , to emulate the ways traversed by universities and institution 
@@ -189,7 +189,7 @@ function Header() {
 
 </div>
 
-            </div>
+            </div> */}
 
 
          {/* new work */}
@@ -199,7 +199,7 @@ function Header() {
 
          {/* Activities and Notices */}
 
-
+{/* 
             <div className='activ_7'>
 
               <h2>Activities and Notices</h2>
@@ -214,11 +214,11 @@ function Header() {
               <div className='active_8_C'>
                 <h5>Urgent Notice <br />August 6th,2024</h5>
                 
-              </div>
+              </div> */}
 
              
 
-             </div>
+             {/* </div>
              <div className='number'>
              <a href="#"><i class="fa-sharp fa-solid fa-pen-fancy"></i></a>
               </div>
@@ -230,9 +230,9 @@ function Header() {
 <button className='button'>
 <p>6 <br />08,2024</p>
 
- </button>
+ </button> */}
 
- <div className='active_8_C'>
+ {/* <div className='active_8_C'>
    <h5>Urgent Notice <br />August 6th,2024</h5>
    
  </div>
@@ -245,8 +245,8 @@ function Header() {
  </div>
 
 
-                       
-                     
+                        */}
+{/*                      
               <div className='active_8'>
 
 <button className='button'>
@@ -264,13 +264,13 @@ function Header() {
 </div>
 <div className='number'>
 <a href="#"><i class="fa-sharp fa-solid fa-pen-fancy"></i></a>
- </div>
+ </div> */}
 
 
 
 
 
- 
+{/*  
  <div className='active_8'>
 
 <button className='button'>
@@ -289,12 +289,12 @@ function Header() {
 <div className='number'>
 <a href="#"><i class="fa-sharp fa-solid fa-pen-fancy"></i></a>
  </div>
-
+ */}
 
 
 
  
- <div className='active_8'>
+ {/* <div className='active_8'>
 
 <button className='button'>
 <p>6 <br />08,2024</p>
@@ -311,12 +311,12 @@ function Header() {
 </div>
 <div className='number'>
 <a href="#"><i class="fa-sharp fa-solid fa-pen-fancy"></i></a>
- </div>
+ </div> */}
 
 
 
 
- 
+{/*  
  <div className='active_8'>
 
 <button className='button'>
@@ -327,10 +327,10 @@ function Header() {
  <div className='active_8_C'>
    <h5>Urgent Notice <br />August 6th,2024</h5>
    
- </div>
+ </div> */}
 
 
-
+{/* 
 </div>
 <div className='number'>
 <a href="#"><i class="fa-sharp fa-solid fa-pen-fancy"></i></a>
@@ -338,7 +338,7 @@ function Header() {
 
 
             </div>
-
+ */}
 
 
           {/* Activities and Notices */}
@@ -349,7 +349,7 @@ function Header() {
           {/* message from vice chairman */}
 
 
-              <div className='Vice'>
+              {/* <div className='Vice'>
 
 
                 <div className='Vice_c'>
@@ -363,12 +363,12 @@ function Header() {
     The determinants of development have been changing from manufacturing to services and from capital resources to knowledge resources. <button>More</button></p>
 
   
-                </div>
+                </div> */}
 
 
 
-
-              </div>
+{/* 
+              </div> */}
 
 
 
