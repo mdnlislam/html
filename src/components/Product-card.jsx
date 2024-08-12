@@ -4,16 +4,13 @@ function ProductCard() {
 
       {/* new project */}
 
-      <div className="responsive">
 
-     
-       
            
       <div className="project">
 
 
 
-<h2> Admission Office:01992887317,01968774933,01968774931,01968774927(Director),019687749030</h2>
+<h2> AdmissionOffice:01992887317,01968774933,01968774931,01968774927(Director),019687749030</h2>
 
   <ul className="logo_card">
      <li><a href="#">Jobs at EUB</a></li>
@@ -42,13 +39,12 @@ function ProductCard() {
 
       </div>
 
-         <div className="ber">
-          <a href="#"><i class="fa-solid fa-bars"></i></a>
-      <div className="Menu_Ber">
 
-        <div className="navbar">
-           {/* <p>Home</p> */}
-           <div className="subnav">
+       <div className="Menu_Ber">
+
+        <div className="navbar"> 
+            {/* <p>Home</p>  */}
+            <div className="subnav">
          <button className="subnavbtn">About</button>
              <div className="subnav_content">
                 <a href="#">Humble Beginning</a>
@@ -157,13 +153,11 @@ function ProductCard() {
            </div>
         </div>
       </div>
-
-     
-      </div>
+ 
 
    {/* new building */}
 
-   <div className="border">
+   {/* <div className="border">
     <div className="border_content">
     <marquee behavior="scoller" direction="left and right">
     <h2>EUROPEAN UNIVERSITY OF BANGLADESH </h2>
@@ -174,10 +168,10 @@ function ProductCard() {
    </div>
 
    <div className="varsity_picture">
-     <img src="public/img/varsity.jpg" alt="" /> 
+     <img src="public/img/varsity.jpg" alt="" />
 
-       
-          <div className="ADMISSION">
+      
+        <div className="ADMISSION">
 
         
         <div className="online">
@@ -194,37 +188,37 @@ function ProductCard() {
         </div>
         <div className="ROUTINE">
           <a href="#">1ST SENESTER CLASS ROUTINE</a>
-         </div>
+        </div>
         <div className="EXAM">
         <a href="#">EXAM SCHEDULE</a>
         </div>
             
-        </div>  
+        </div>
       
-   </div>
+   </div> */}
 
 
    {/* New work */}
-      <div className="new_work">
+     {/* <div className="new_work">
    <div className="some_logo">
      <a href="#"><i class="fa-solid fa-people-roof"></i></a>
     <div className="logo_contant">
      <p>Alumni</p>
     </div>
 
-   </div>
- 
+   </div> */}
 
-    <div className="some_logo">
+
+   {/* <div className="some_logo">
      <a href="#"><i class="fa-solid fa-handshake"></i></a>
     <div className="logo_contant">
      <p>Students Affairs</p>
     </div>
 
-   </div> 
+   </div> */}
 
-
-    <div className="some_logo">
+{/* 
+   <div className="some_logo">
      <a href="#"><i class="fa-solid fa-house"></i></a>
     <div className="logo_contant">
      <p>Organogram</p>
@@ -238,23 +232,23 @@ function ProductCard() {
      <p>Library</p>
     </div>
 
-   </div> 
+   </div> */}
 
-    <div className="some_logo">
+   {/* <div className="some_logo">
      <a href="#"><i class="fa-solid fa-camera-retro"></i></a>
     <div className="logo_contant">
      <p>Gallery</p>
     </div>
 
    </div>
-   </div> 
+   </div> */}
 
 
 
    {/* new work */}
 
 
-    <div className="text">
+   {/* <div className="text">
 
        <h2>Message from Chaiman</h2>
 
@@ -267,28 +261,28 @@ function ProductCard() {
 
        <h2>Muhiuddin Khan Alamgir</h2>
        <p>
-        Ph.D.M.A <br /> University of Dhaka <br />Boston University  
+        Ph.D.M.A <br /> University of Dhaka <br />Boston University 
 
-        </p>
+       </p>
        <h2>Chairman</h2>
        <p>European University of Bangladesh</p>
-       
+        */}
 
-  <button>More</button>
+  {/* <button>More</button>
 
    <div className="picture">
     <img src="public/img/Rakib.jpg" alt="" />
 
    </div>
-   </div> 
+   </div> */}
 
      
      {/* New Work */}
 
 
 
- 
-    <div className="notices">
+
+    {/* <div className="notices">
     <h2>Activities and Notices</h2>
     </div>
 
@@ -305,16 +299,16 @@ function ProductCard() {
       </div>
           <div className="logo_contant">
                <p>Exam notice (Supple Midterm Exam Summer)</p>
-          </div> 
+          </div>
 
-      </div>
-
+     </div>
+ */}
 
      
-     <div className="Activ">
- 
+     {/* <div className="Activ">
 
-       <button>13 <br />07,2024</button>
+
+        <button>13 <br />07,2024</button>
         
       <div className="logo">
       <a href="#"><i class="fa-sharp fa-solid fa-pen-fancy"></i></a>
@@ -322,12 +316,12 @@ function ProductCard() {
       <div className="logo_contant">
                <p>Exam notice (Supple Midterm Exam Summer)</p>
           </div>
-     </div> 
+     </div>
 
 
-      <div className="Activ">
+     <div className="Activ"> */}
 
-
+{/* 
       <button>13 <br />07,2024</button>
 
       <div className="logo">
@@ -336,14 +330,14 @@ function ProductCard() {
         <div className="logo_contant">
                <p>Exam notice (Supple Midterm Exam Summer)</p>
           </div>
-          </div> 
+          </div> */}
 
 
 
 
 
 
-          <div className="Activ">
+         {/* <div className="Activ">
 
 
      <button>13 <br />07,2024</button>
@@ -354,13 +348,13 @@ function ProductCard() {
    <div className="logo_contant">
                <p>Exam notice (Supple Midterm Exam Summer)</p>
           </div>
-   </div> 
+   </div> */}
 
 
 
 
 
-      <div className="Activ">
+     {/* <div className="Activ">
 
 
       <button>13 <br />07,2024</button>
@@ -371,12 +365,12 @@ function ProductCard() {
     <div className="logo_contant">
                <p>Exam notice (Supple Midterm Exam Summer)</p>
           </div>
-  </div> 
+  </div> */}
 
 
 
 
-        <div className="Activ">
+       {/* <div className="Activ">
 
 
       <button>13 <br />07,2024</button>
@@ -388,24 +382,24 @@ function ProductCard() {
                <p>Exam notice (Supple Midterm Exam Summer)</p>
           </div>
      </div>
-  </div>      
+  </div>      */}
 
   {/* new step */}
 
 
-   <div className="Message">
+  {/* <div className="Message">
 
     <h2 className="heading_5">Message From Vice Chairman</h2>
     <p className="paragrap_5">It is my great pleasure to offer a message of goodwill to potential students, guardians, educationists and other members of the society on behalf of the European University of Bangladesh (EUB). We shall be more than happy to welcome you at our campus to exchange and share your views.
     The determinants of development have been changing from manufacturing to services and from capital resources to knowledge resources. <button>More</button></p>
 
-   
+  
 
-   <div className="Message_contant_5">
+  <div className="Message_contant_5">
     <img src="public/img/Rakib.jpg" alt="" />
 
   </div>
-  </div> 
+  </div> */}
 
 
 
@@ -413,7 +407,7 @@ function ProductCard() {
   {/* new step */}
 
    
-   <div className="step_ber">
+  {/* <div className="step_ber">
 
   
 
@@ -433,9 +427,9 @@ function ProductCard() {
     <a href="#">Tourism and Hospitality Management</a>
     <a href="#"> BSS (Hons. in Economics)</a>
     <a href="#">Industrial Production Engineering</a>
-     
+     */}
 
-   </div>
+  {/* </div>
 
  </div>
 
@@ -451,15 +445,15 @@ function ProductCard() {
     <a href="#">LL.M</a>
     <a href="#">Master in Governance and Development Studies</a>
     <a href="#">MSS in Economics</a>
-   
+    */}
 
-  </div>
+  {/* </div>
 
- </div> 
+ </div> */}
 
 
-
-  <div className="step">
+{/* 
+ <div className="step">
   <div className="header">
     <a href="#"><i class="fa-solid fa-graduation-cap"></i></a>
     <h1>Students Information</h1>
@@ -474,16 +468,16 @@ function ProductCard() {
     <a href="#">Courses Tuition Fees</a>
     <a href="#">Contact Admission Office</a>
     <a href="#">Clubs And Co-Curriculars</a>
-   
-
+    */}
+{/* 
   </div>
 
  </div>
 
- </div> 
+ </div> */}
 
 
-   {/* <div className="video_container">
+ {/* <div className="video_container">
      <video controls src="public/img/video.mp4"></video>
 
 
@@ -492,12 +486,12 @@ function ProductCard() {
 
      </div>
 
-    </div>  */}
- 
+    </div> */}
+
 
     {/* new topic */}
 
-     <div className="contact">
+    {/* <div className="contact">
 
        <div className="information">
          <h5>CONTACT INFORMATION</h5>
@@ -520,16 +514,16 @@ function ProductCard() {
                  </a>
                 </div>
               </div>
-         </div> 
-        </div>
+         </div>
+       </div>
 
        <div className="information">
-         <h5>IMPORTANT LINKS</h5>
+         <h5>IMPORTANT LINKS</h5> */}
 
-         <div className="information_content">
-              {/* <p>EUB Permanent Campus</p> */}
-              {/* <p>2/4, Gabtoli, Mirpur, Dhaka-1216</p> */}
-               <a href="#">UGC, Bangladesh</a>
+         {/* <div className="information_content"> */}
+          
+{/*               
+              <a href="#">UGC, Bangladesh</a>
               <a href="#">Ministry of Education, Bangladesh</a>
               <a href="#">Check Email</a>
               <a href="#">Jobs at EUB</a>
@@ -537,26 +531,26 @@ function ProductCard() {
               <a href="#">European Family</a>
               <a href="#">BD Jobs</a>
          </div>
-       </div>  
+       </div> */}
 
-        <div className="information">
+       {/* <div className="information">
          <h5>RESEARCH & PUBLICATION</h5>
 
          <div className="information_content">
               {/* <p>EUB Permanent Campus</p> */}
               {/* <p>2/4, Gabtoli, Mirpur, Dhaka-1216</p> */}
-               <a href="#">Institutional Repository</a>
+              {/* <a href="#">Institutional Repository</a>
               <a href="#">Research Journals »»</a>
               <a href="#">Research Publications</a>
               <a href="#">Research Centers</a>
               <a href="#">Media Coverage</a>
               <a href="#">Newsletter</a>
-              <a href="#">EUB Blog</a>
+              <a href="#">EUB Blog</a> */}
+{/* 
+         </div> */}
+       {/* </div>
 
-         </div>
-       </div>  
-
-        <div className="information">
+       <div className="information">
          <h5>APPROVED BY:</h5>
 
          <div className="information_content">
@@ -565,20 +559,27 @@ function ProductCard() {
 
               <p>Govt.of the </p>
               <p>Peoples Republic of</p>
-              <p>Bangladesh</p>
-         </div>
-       </div>
-    </div> 
+              <p>Bangladesh</p> */} 
+         {/* </div> */}
+      {/* </div> */}
+   {/* </div> */} 
 
     {/* new topic */}
-
-     <div className="University">
+{/* 
+    <div className="University">
       <p>© 2012-2024 European University of Bangladesh (EUB), All Rights Reserved. | Developed and Maintained by : EUB ICT Division</p>
 
-    </div> 
+    </div> */}
 
 
-    </div>
+     {/* new item      agola dealet dewya hobe */}
+
+
+       
+
+
+
+
            
 
    </>
@@ -591,6 +592,12 @@ export default ProductCard
 
 // }
 // export default ProductCard
+
+
+
+
+
+
 
 
 
