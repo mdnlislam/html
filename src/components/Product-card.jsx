@@ -41,11 +41,13 @@ function ProductCard() {
 
 
        <div className="Menu_Ber">
-
+        <p className="bear"><i class="fa-solid fa-bars"></i></p>
         <div className="navbar"> 
-            {/* <p>Home</p>  */}
+       
             <div className="subnav">
-         <button className="subnavbtn">About</button>
+        <div className="border">
+        <button className="subnavbtn">About</button>
+        </div>
              <div className="subnav_content">
                 <a href="#">Humble Beginning</a>
                 <a href="#">Messages</a>
@@ -60,7 +62,9 @@ function ProductCard() {
 
 
            <div className="subnav">
-         <button className="subnavbtn">Academics</button>
+        <div className="border">
+        <button className="subnavbtn">Academics</button>
+        </div>
              <div className="subnav_content">
                 <a href="#">Academic policy</a>
                 <a href="#">Rules & Regulation</a>
@@ -75,7 +79,9 @@ function ProductCard() {
 
 
            <div className="subnav">
-         <button className="subnavbtn">Admission</button>
+        <div className="border">
+        <button className="subnavbtn">Admission</button>
+        </div>
              <div className="subnav_content">
                 <a href="#">Admission Information</a>
                 <a href="#">Waivers and Assistance</a>
@@ -89,7 +95,9 @@ function ProductCard() {
 
 
            <div className="subnav">
-         <button className="subnavbtn">Faculties</button>
+           <div className="border">
+           <button className="subnavbtn">Faculties</button>
+           </div>
              <div className="subnav_content">
                 <a href="#">Faculty of Arts & Social Sciences</a>
                 <a href="#">Faculty of Business Administration</a>
@@ -100,7 +108,9 @@ function ProductCard() {
            </div>
 
            <div className="subnav">
-         <button className="subnavbtn">Administration</button>
+          <div className="border">
+          <button className="subnavbtn">Administration</button>
+          </div>
              <div className="subnav_content">
                 <a href="#">Academic policy</a>
                 <a href="#">Rules & Regulation</a>
@@ -113,7 +123,9 @@ function ProductCard() {
            </div>
 
            <div className="subnav">
+         <div className="border">
          <button className="subnavbtn">Student Corner</button>
+         </div>
              <div className="subnav_content">
                 <a href="#">Academic policy</a>
                 <a href="#">Rules & Regulation</a>
@@ -126,7 +138,9 @@ function ProductCard() {
            </div>
 
            <div className="subnav">
-         <button className="subnavbtn">Contact Us</button>
+             <div className="border">
+             <button className="subnavbtn">Contact Us</button>
+             </div>
              <div className="subnav_content">
                 <a href="#">Academic policy</a>
                 <a href="#">Rules & Regulation</a>
@@ -140,7 +154,9 @@ function ProductCard() {
 
 
            <div className="subnav">
-         <button className="subnavbtn">Research & Journals</button>
+           <div className="border">
+           <button className="subnavbtn">Research & Journals</button>
+           </div>
              <div className="subnav_content">
                 <a href="#">Academic policy</a>
                 <a href="#">Rules & Regulation</a>
