@@ -557,6 +557,9 @@
     .content_6:hover{
       top: 0;
     }
+     .bear{
+      display: none;
+     } 
 
      
 
@@ -567,6 +570,7 @@
     max-width: 1200px;
     width: auto;
    }
+   
 
         @media screen and (max-width:600px) {
 
@@ -651,14 +655,31 @@
 
           .navbar{
             display: none;
-            position: absolute;
+            
           }
 
           .Menu_Ber:hover .navbar{
             display: block;
             width: 100%;
           }
+          .bear{
+            display: block;
+          }
 
+
+          /* new */
+
+          .varsity_picture{
+            position: static;
+          }
+
+          .ADMISSION{
+            position: static;
+            width: 100%;
+          }
+          .ADMISSION a{
+            font-size: 25px;
+          }
 
           
         }

@@ -173,7 +173,7 @@ function ProductCard() {
 
    {/* new building */}
 
-   {/* <div className="border">
+    <div className="border">
     <div className="border_content">
     <marquee behavior="scoller" direction="left and right">
     <h2>EUROPEAN UNIVERSITY OF BANGLADESH </h2>
@@ -211,7 +211,7 @@ function ProductCard() {
             
         </div>
       
-   </div> */}
+   </div> 
 
 
    {/* New work */}
