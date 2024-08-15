@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="styles.css">
    <style>
   
-.item1{grid-area: header;}
+/* .item1{grid-area: header;}
 .item2{grid-area: menu;}
 .item3{grid-area: main;}
 .item4{grid-area: right;}
@@ -28,16 +28,64 @@
   text-align:center ;
   padding: 20px 0;
   font-size: 30px;
-}
+} */
 
+.grid_container{
+  display: grid;
+  /* column-gap: 50px; */
+  row-gap: 40px;
+  grid-template-columns: auto auto auto;
+  background-color:#2196F3 ;
+  padding: 10px;
+}
+.grid_item{
+  background-color:rgba(255, 255, 255, 0.8) ;
+  border:1px solid rgba(0, 0, 0, 0.8) ;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
 
    </style>
    
      
  </head>
  <body>
+
+  <div class="grid elements">
+    <h1>Grid Element</h1>
+    <p>A Grid layout must have a parent
+      element with the <em>display</em>
+      property set to <em>grid</em> or
+      <em>inline-grid</em>.
+    </p>
+
+    <p>Direct child element(s) of the grid 
+      container automatically becomes grids item .
+    </p>
+
+    <div class="grid_container">
+      <div class="grid_item">1</div>
+      <div class="grid_item">2</div>
+      <div class="grid_item">3</div>
+      <div class="grid_item">4</div>
+      <div class="grid_item">5</div>
+      <div class="grid_item">6</div>
+      <div class="grid_item">7</div>
+      <div class="grid_item">8</div>
+      <div class="grid_item">9</div>
+
+
+
+
+    </div>
+
+
+
+
+  </div>
       
-   <div class="grid layout">
+   <!-- <div class="grid layout">
     
          <h1>Grid Layout</h1>
          <p>the news off luck the beautifull county
@@ -52,12 +100,13 @@
           <div class="item4">Right</div>
           <div class="item5">Footer</div>
 
-
-
-
          </div>
 
-   </div>
+   </div> -->
+
+
+
+
 
 
 
