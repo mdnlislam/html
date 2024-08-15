@@ -1,266 +1,29 @@
-.Mobail_screen{
-    width: 600px;
-    border: 2px solid red;
-    height: 100%;
-    margin-top: 20px;
-}
-
-.office{
-    text-align: center;
-}
-
-.header_content{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-.header_content a{
-    text-decoration: none;
-}
-
-.header_2 img{
-     width: 150px;
-     margin-left: 5px;
-}
-.logo_bere{
-    display: flex;
-    justify-content: space-between;
-    margin-right: 50px;
-    
-}
 
 
-.text_2{
-    /* border: 2px solid green; */
-        width: 200px;
-        border-radius: 10px;
-        margin-left: 5px;
-        padding:2px;
-}
-
-.text_2 a{
-    text-decoration: none;
-    justify-content: center;
-    background-color: green;
-    border-radius: 10px;
-    padding: 5px;
-    color: white;
-}
+.item1{grid-area: header;}
+.item2 {grid-area: menu; }
+.item3{grid-area: Main;}
+.item4{grid-area: right;}
+.item5{grid-area: footer;}
 
 
+.grid_container{
+  display: grid;
+  grid-template-areas: 
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
 
+     gap: 10px;
+     background-color:#2196F3 ;
+     padding: 10px;
 
-
-
-
-
-/* new item */
-
-
-
-  .dropbtn{
-    font-size: 35px;
-    /* justify-content: right; */
-    margin-left: 500px;
-    
-   
-  }
-
-  .fa-bars{
-    font-size: 30px;
-    justify-content: right;
-  }
-  .bers{
-    justify-content: right;
-    display: block;
-  }
-
-  .Dropdown{
-    /* position:relative; */
-    width: 100%;
-    /* display: inline-block; */
-      display: inline-block;
-    
-  }
-
-  .Dropdown input[type="checkbox"] {
-    display: none;
-  }
-  .dropdown_content{
-    /* position: absolute; */
-    display: none;
-
-    
-  }
-
-  .dropdown_content a{
-    text-decoration: none;
-    font-size: 20px;
-    border: 2px solid white;
-    width: 600px;
-    background-color: green;
-    color: white;
-    display: block;
-    /* padding: 5px; */
-  }
-
-  .dropdown_content a:hover{
-    background-color: darkgrey;
-  }
-
-  .Dropdown input[type="checkbox"]:checked ~ .dropdown_content{
-    display: block;
-    
-  }
-
-
- .marquee{
-  border: 2px solid pink;
-  background-color: green;
-  height: 35px;
-  
-  
- }
- .marquee h2{
-  font-size: 16px;
-  color: white;
-  word-spacing: 10px;
-  letter-spacing: 10px;
- }
-
-
-/* new item */
-
-
- /* new topic */
-
-    
-.FEES a{
-  text-decoration: none;
-  
-  
-}
-.FEES a{
-  border: 2px solid pink;
-  background-color: blue;
-  color: white;
-  padding: 2px;
-  font-size: 10px;
-  justify-content: center;
-}
-
-
-
-.icons{
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  background-color: rgb(181, 181, 211);
-  align-items: center;
-
-}
-.icons a{
-  text-decoration: none;
-}
-.fa-facebook{
-   font-size: 30px;
-   /* color: green; */
-}
-.fa-youtube{
- font-size: 30px;
- color: red;
-}
-
-
- /* new topic */
-
- /* new work */
-
-.varsity img{
-  height: 200px;
-  width: 100%;
-}
-/* new work */
- 
-   .book_con {
-    /* border: 2px solid green; */
-    display: inline-block;
-    /* justify-content: center; */
-    margin-left: 45%;
-
-    
-   }
-   .book_con a{
-    text-decoration: none;
-    
-   }
-   
- /* new work */
-
-
-
- /* new topic */
-
-
-  .chairman{
-    background-color: #eae9e9;
-    margin-left: 5px;
-  }
-
-
- /* new topic */
-
-
-
- /* activities */
-
-.active_8{
-  display: flex;
-  gap: 25px;
-  padding-top: 20px;
-  margin-left: 5px;
-}
-.number{
-  border: 1px solid black;
-  width: 62px;
-  height: 50px;
-  margin-left: 5px;
-  background-color: #eae9e9;
-  
-}
-
-.number a{
-  text-decoration: none;
-  margin-top: 15px;
-  margin-left: 15px;
-  
 
 }
 
-.button{
-  background-color: rgb(115, 233, 115);
-  color: white;
+.grid_container div{
+  background-color:rgba(255, 255, 255, 0.8) ;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
 }
-
-
-  /* activities */
-
-
-
-  /* message */
-
-   .Vice{
-    background-color: #eae9e9;
-    margin-top: 50px;
-    padding: 5px;
-   }
-
-.Vice_c img{
-  margin-top: -15px;
-}
-
-
-
-
-
-  /* message */

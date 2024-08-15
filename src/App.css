@@ -566,10 +566,10 @@
     /* responsive web design */
 
 
-   .project{
+   /* .project{
     max-width: 1200px;
     width: auto;
-   }
+   } */
    
 
         @media screen and (max-width:600px) {
