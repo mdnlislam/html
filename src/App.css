@@ -563,6 +563,29 @@
 
      
 
+     @media screen and (min-width:780px)  {
+      .project{
+        display: block;
+      }
+      .project{
+        text-align: center;
+      }
+      .logo_card{
+        text-align: center;
+        justify-content: center;
+      }
+         .Menu_Ber{
+          width: 50px;
+         }
+
+         .heading{
+          font-size: 16px;
+         }
+
+     }
+
+
+
     /* responsive web design */
 
 
@@ -651,6 +674,7 @@
             }
             .Menu_Ber{
               position: relative;
+              
             }
 
           .navbar{
@@ -906,7 +930,12 @@
      /* responsive web design */
 
 
+   /* responsive_2 */
 
+    
+
+
+   /* responsive_2 */
 
 
 

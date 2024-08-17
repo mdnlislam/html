@@ -30,21 +30,82 @@
   font-size: 30px;
 } */
 
-/* .grid_container{
+/* responsive */
+
+
+
+
+
+/* responsive */
+
+
+
+
+
+ .grid_container{
   display: grid;
   
   row-gap: 40px;
   grid-template-columns: auto auto auto;
   background-color:#2196F3 ;
   padding: 10px;
-} */
-/* .grid_item{
+} 
+ .grid_item{
   background-color:rgba(255, 255, 255, 0.8) ;
   border:1px solid rgba(0, 0, 0, 0.8) ;
   padding: 20px;
   font-size: 30px;
   text-align: center;
-} */
+} 
+
+
+@media(max-width:600px) {
+ .grid_container{
+  display: grid;
+  grid-template-columns:  auto;
+ }
+ .grid_elements h1,p{
+           text-align: center;
+ }
+
+  
+ }
+
+ @media (min-width:601px) {
+  .grid_container{
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .grid_elements{
+    text-align: center;
+  }
+  
+ }
+
+ @media (min-width:781px) {
+  .grid_container{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+  }
+  
+ }
+
+
+
+
+
+/* @media screen and(max-width:600px) {
+    input[type=text], select{
+      width: 10px;
+      padding: 12px 20px;
+      margin: 8px 0;
+    }
+   }
+
+
+
+
+
     input[type=text], select{
       width: 100%;
       padding: 12px 20px;
@@ -53,9 +114,9 @@
       border: 1px solid #ccc;
       border-radius: 4px;
       box-sizing: border-box;
-    }
+    } */
 
-    input[type=submit] {
+    /* input[type=submit] {
       width: 100%;
       background-color:#4CAF50 ;
       color: white;
@@ -68,13 +129,14 @@
 
     input[type=submit]:hover {
       background-color: aqua;
-    }
-    div {
+    } */
+    /* div {
       border: 5px;
       background-color:#f2f2f2 ;
       padding: 20px;
-    }
+    } */
 
+   
 
    </style>
    
@@ -82,7 +144,7 @@
  </head>
  <body>
 
-    <h3>Using CSS to style an HTML Form</h3>
+    <!-- <h3>Using CSS to style an HTML Form</h3>
 
    <div>
     
@@ -118,6 +180,7 @@
 
 
    </div>
+ -->
 
 
 
@@ -128,8 +191,7 @@
 
 
 
-<!-- 
-  <div class="grid elements">
+  <div class="grid_elements">
     <h1>Grid Element</h1>
     <p>A Grid layout must have a parent
       element with the <em>display</em>
@@ -151,6 +213,7 @@
       <div class="grid_item">7</div>
       <div class="grid_item">8</div>
       <div class="grid_item">9</div>
+      <div class="grid_item">10</div>
 
 
 
@@ -161,7 +224,7 @@
 
 
   </div>
-       -->
+       
    <!-- <div class="grid layout">
     
          <h1>Grid Layout</h1>
